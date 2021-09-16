@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">BarMaTic</string>
+
+    <string name="descripción_razonamiento">Es un proceso mental que implica la aplicación de la lógica.
+        Mediante esta clase de razonamiento, se puede partir de una o de varias premisas para arribar
+        a una conclusión que puede determinarse como verdadera, falsa o posible.
+    </string>
+
+    <string name="descripción_PensNumyVar">El pensamiento numérico-variacional apunta hacia el desarrollo
+        de competencias relacionadas con la comprensión del número y su significado; las operaciones,
+        sus propiedades, su efecto y las relaciones entre ellas; el reconocimiento de regularidades y
+        patrones y la identificación de variables.
+    </string>
+
+    <string name="descripción_PensMetricoyGeome">El pensamiento métrico y geométrico hace referencia a la comprensión
+        general que se tiene sobre las magnitudes y las cantidades, su medición y el uso flexible
+        de los sistemas métricos o de medidas en diferentes situaciones.
+    </string>
+
+    <string name="descripción_PensAleatorio">El pensamiento aleatorio se apoya directamente en
+        conceptos y procedimientos de la teoría de probabilidades y de la estadística
+        inferencial e indirectamente en la estadística descriptiva y en la combinatoria.
+        Ayuda a buscar soluciones razonables a problemas en los que no hay una solución clara y segura.
+    </string>
+
+    <string name="descripción_PensAnalisisdeProcesos">El análisis de procesos consiste en llevar a
+        cabo una revisión exhaustiva y llegar a una comprensión completa de un proceso con el
+        objetivo de entenderlo y encontrar soluciones..
+    </string>
+
+
+</resources>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "853241892459",
+    "project_id": "appgrado-a65e5",
+    "storage_bucket": "appgrado-a65e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853241892459:android:7ccbcac799fa53785aab2e",
+        "android_client_info": {
+          "package_name": "com.example.appgrado"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853241892459-rku9tt06v3h955cpponfhkk6j54guc4d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appgrado",
+            "certificate_hash": "e6d357796ba9e778bd74bea6bb57d84e125f1bd0"
+          }
+        },
+        {
+          "client_id": "853241892459-to1agapi9b4ed1a0t2nd62acb7kom45r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ4YKlZnHqCrdmjHsDm53ZCVM9_HHqeQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853241892459-to1agapi9b4ed1a0t2nd62acb7kom45r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

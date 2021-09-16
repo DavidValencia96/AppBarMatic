@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondoapp"
+    tools:context=".MenuActivity">
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_32sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_20sdp">
+            
+            <TextView
+                android:gravity="center"
+                android:id="@+id/textTitulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_30sdp"
+                android:textColor="@color/black"
+                android:text="@string/app_name"/>
+                <TextView
+                    android:gravity="left"
+                    android:layout_below="@id/textTitulo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_14sdp"
+                    android:textColor="@color/black"
+                    android:text="Institución Educativa Rural\nBarranquillita\n\nChigorodo-Antioquia"/>
+
+            <ImageView
+                android:src="@drawable/logocolegio"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_alignParentRight="true"/>
+            
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:rowCount="4"
+                android:columnCount="2"
+                android:columnOrderPreserved="false"
+                android:alignmentMode="alignMargins">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="@dimen/_5sdp"
+                    app:cardCornerRadius="@dimen/_5sdp"
+                    android:layout_margin="@dimen/_12sdp">
+
+                    <LinearLayout
+                        android:onClick="irRazonamientoLog"
+                        android:gravity="center"
+                        android:padding="@dimen/_16sdp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_100sdp"
+                            android:src="@drawable/pensamientologico"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:text="Razonamiento\nLógico"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/_13sdp" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="@dimen/_5sdp"
+                    app:cardCornerRadius="@dimen/_5sdp"
+                    android:layout_margin="@dimen/_12sdp">
+
+                    <LinearLayout
+                        android:onClick="irSubmenuPensNumyVari"
+                        android:gravity="center"
+                        android:padding="@dimen/_16sdp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_100sdp"
+                            android:src="@drawable/numero"/>
+
+                        <TextView
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:textSize="@dimen/_13sdp"
+                            android:textAlignment="center"
+                            android:text="Pensamiento\nNumérico y Variacional"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="@dimen/_5sdp"
+                    app:cardCornerRadius="@dimen/_5sdp"
+                    android:layout_margin="@dimen/_12sdp">
+
+                    <LinearLayout
+                        android:onClick="irSubmenuPensMetricoyGeome"
+                        android:gravity="center"
+                        android:padding="@dimen/_16sdp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_100sdp"
+                            android:src="@drawable/geometria"/>
+
+                        <TextView
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:textSize="@dimen/_13sdp"
+                            android:textAlignment="center"
+                            android:text="Pensamiento\nMétrico y Geométrico"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="@dimen/_5sdp"
+                    app:cardCornerRadius="@dimen/_5sdp"
+                    android:layout_margin="@dimen/_12sdp">
+
+                    <LinearLayout
+                        android:onClick="irSubmenuPensAleatorio"
+                        android:gravity="center"
+                        android:padding="@dimen/_16sdp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_100sdp"
+                            android:src="@drawable/estadisticas"/>
+
+                        <TextView
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:textSize="@dimen/_15sdp"
+                            android:textAlignment="center"
+                            android:text="Pensamiento\nAleatorio"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="@dimen/_5sdp"
+                    app:cardCornerRadius="@dimen/_5sdp"
+                    android:layout_margin="@dimen/_12sdp">
+
+                    <LinearLayout
+                        android:onClick="irSubmenuPensProcesos"
+                        android:gravity="center"
+                        android:padding="@dimen/_16sdp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_100sdp"
+                            android:src="@drawable/analisisdatos"/>
+
+                        <TextView
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:textSize="@dimen/_15sdp"
+                            android:textAlignment="center"
+                            android:text="Análisis de Procesos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="@dimen/_5sdp"
+                    app:cardCornerRadius="@dimen/_5sdp"
+                    android:layout_margin="@dimen/_12sdp">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:padding="@dimen/_16sdp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_100sdp"
+                            android:src="@drawable/acercade"/>
+
+                        <TextView
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:textSize="@dimen/_18sdp"
+                            android:textAlignment="center"
+                            android:text="ajustes"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </GridLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
