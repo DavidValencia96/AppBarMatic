@@ -3,6 +3,7 @@ package com.example.appgrado;
 public class ModelClass {
 
     String  InitialQuestion;
+//    int Imagen;
     String  ResponseA;
     String  ResponseB;
     String  ResponseC;
@@ -13,8 +14,9 @@ public class ModelClass {
 
     }
 
-    public ModelClass(String initialQuestion, String responseA, String responseB, String responseC, String responseD, String responseANS) {
+    public ModelClass(String initialQuestion,  String responseA, String responseB, String responseC, String responseD, String responseANS) {
         InitialQuestion = initialQuestion;
+//        Imagen = imagen;
         this.ResponseA = responseA;
         this.ResponseB = responseB;
         this.ResponseC = responseC;
@@ -31,6 +33,14 @@ public class ModelClass {
     public void setInitialQuestion(String initialQuestion) {
         InitialQuestion = initialQuestion;
     }
+
+//    public int getImagen() {
+//        return Imagen;
+//    }
+//
+//    public void setImagen(int imagen) {
+//        Imagen = imagen;
+//    }
 
     public String getResponseA() {
         return ResponseA;

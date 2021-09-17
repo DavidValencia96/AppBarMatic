@@ -2,6 +2,7 @@ package com.example.appgrado;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import androidx.cardview.widget.CardView;
 import android.app.Dialog;
@@ -9,6 +10,7 @@ import android.content.Intent;
 import android.os.CountDownTimer;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -32,6 +34,7 @@ public class QuestionRazonamientoLevel1 extends AppCompatActivity {
     List<ModelClass> allQuestionsList; //importamos la lista de preguntas en caso de que este en otra vista
     ModelClass modelClass;
     int index = 0;
+//    ImageView imagen;
     TextView preguntas, optionA, optionB, optionC, optionD;
     CardView ResponseA, ResponseB, ResponseC, ResponseD;
     int correctCount = 0;
@@ -81,6 +84,9 @@ public class QuestionRazonamientoLevel1 extends AppCompatActivity {
         QuestionRazonamientoLevel1.add(new ModelClass("Si 2 pintores tardan 6 días en pintar un muro. ¿Cuánto tardarán 3 pintores en realizar el mismo trabajo?",
                 "3","4","5","1", "4"));
 
+//        QuestionRazonamientoLevel1.add(new ModelClass("Si 2 pintores tardan 6 días en pintar un muro. ¿Cuánto tardarán 3 pintores en realizar el mismo trabajo?", R.drawable.acercade,
+//                "3","4","5","1", "4"));
+
 
 
         Hooks();
@@ -128,6 +134,7 @@ public class QuestionRazonamientoLevel1 extends AppCompatActivity {
 
     private void setAllData() {
         preguntas.setText(modelClass.getInitialQuestion());
+//        imagen.setImageResource(modelClass.getImagen());
         optionA.setText(modelClass.getResponseA());
         optionB.setText(modelClass.getResponseB());
         optionC.setText(modelClass.getResponseC());
@@ -140,6 +147,7 @@ public class QuestionRazonamientoLevel1 extends AppCompatActivity {
     private void Hooks() {
         progressBar = findViewById(R.id.quiz_timer);
         preguntas = findViewById(R.id.card_preguntas);
+//        imagen = findViewById(R.id.imagen1);
         optionA = findViewById(R.id.card_optionA);
         optionB = findViewById(R.id.card_optionB);
         optionC = findViewById(R.id.card_optionC);
