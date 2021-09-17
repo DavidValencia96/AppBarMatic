@@ -83,7 +83,6 @@ public class QuestionRazonamientoLevel1 extends AppCompatActivity {
 
 
 
-
         Hooks();
 
         allQuestionsList = QuestionRazonamientoLevel1;
