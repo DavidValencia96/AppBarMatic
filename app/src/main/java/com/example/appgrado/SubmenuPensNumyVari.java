@@ -15,7 +15,12 @@ public class SubmenuPensNumyVari extends AppCompatActivity {
     }
 
     public void irPensNumyVarilevel1(View view){
-        Intent i = new Intent(SubmenuPensNumyVari.this, QuestionRazonamientoLevel1.class);
+        Intent i = new Intent(SubmenuPensNumyVari.this, QuestionPensNumyVariLevel1.class);
+        startActivity(i);
+    }
+
+    public void irPensNumyVarilevel2(View view){
+        Intent i = new Intent(SubmenuPensNumyVari.this, QuestionPensNumyVariLevel2.class);
         startActivity(i);
     }
 

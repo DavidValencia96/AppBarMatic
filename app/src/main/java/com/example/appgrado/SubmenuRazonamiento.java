@@ -20,19 +20,10 @@ public class SubmenuRazonamiento extends AppCompatActivity {
     }
 
     public void irRazonamientoLevel2(View view){
-        Intent i = new Intent(SubmenuRazonamiento.this, QuestionRazonamientoLevel1.class);
+        Intent i = new Intent(SubmenuRazonamiento.this, QuestionRazonamientoLevel2.class);
         startActivity(i);
     }
 
-    public void irRazonamientoLevel3(View view){
-        Intent i = new Intent(SubmenuRazonamiento.this, QuestionRazonamientoLevel1.class);
-        startActivity(i);
-    }
-
-    public void irRazonamientoLevel4(View view){
-        Intent i = new Intent(SubmenuRazonamiento.this, QuestionRazonamientoLevel1.class);
-        startActivity(i);
-    }
 
     public void irinicio(View view){
         Intent i = new Intent(SubmenuRazonamiento.this, MenuActivity.class);

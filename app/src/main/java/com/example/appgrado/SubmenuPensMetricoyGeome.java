@@ -15,7 +15,12 @@ public class SubmenuPensMetricoyGeome extends AppCompatActivity {
     }
 
     public void irPensPensMetricoyGeomelevel1(View view){
-        Intent i = new Intent(SubmenuPensMetricoyGeome.this, QuestionRazonamientoLevel1.class);
+        Intent i = new Intent(SubmenuPensMetricoyGeome.this, QuestionPensMetricoyGeomeLevel1.class);
+        startActivity(i);
+    }
+
+    public void irPensPensMetricoyGeomelevel2(View view){
+        Intent i = new Intent(SubmenuPensMetricoyGeome.this, QuestionPensMetricoyGeomeLevel2.class);
         startActivity(i);
     }
 

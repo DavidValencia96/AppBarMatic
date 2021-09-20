@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/imageq"
     android:orientation="vertical"
-    tools:context=".QuestionRazonamientoLevel1">
+    tools:context=".QuestionPensEducaFinancieraLevel2">
 
     <!-- Barra contadora -->
     <RelativeLayout
