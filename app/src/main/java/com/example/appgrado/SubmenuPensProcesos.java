@@ -15,7 +15,12 @@ public class SubmenuPensProcesos extends AppCompatActivity {
     }
 
     public void irPensPensProcesoslevel1(View view){
-        Intent i = new Intent(SubmenuPensProcesos.this, QuestionRazonamientoLevel1.class);
+        Intent i = new Intent(SubmenuPensProcesos.this, QuestionPensProcesosLevel1.class);
+        startActivity(i);
+    }
+
+    public void irPensPensProcesoslevel2(View view){
+        Intent i = new Intent(SubmenuPensProcesos.this, QuestionPensProcesosLevel2.class);
         startActivity(i);
     }
 

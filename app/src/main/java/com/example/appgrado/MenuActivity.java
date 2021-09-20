@@ -40,6 +40,10 @@ public class MenuActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void irSubmenuPensEducaFinanciera(View view){
+        Intent i = new Intent(MenuActivity.this, SubmenuPensEducaFinanciera.class);
+        startActivity(i);
+    }
 
     @Override
     public void onBackPressed() {

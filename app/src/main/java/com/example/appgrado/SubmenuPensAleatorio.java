@@ -15,7 +15,12 @@ public class SubmenuPensAleatorio extends AppCompatActivity {
     }
 
     public void irPensPensAleatoriolevel1(View view){
-        Intent i = new Intent(SubmenuPensAleatorio.this, QuestionRazonamientoLevel1.class);
+        Intent i = new Intent(SubmenuPensAleatorio.this, QuestionPensAleatorioLevel1.class);
+        startActivity(i);
+    }
+
+    public void irPensPensAleatoriolevel2(View view){
+        Intent i = new Intent(SubmenuPensAleatorio.this, QuestionPensAleatorioLevel2.class);
         startActivity(i);
     }
 

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imageq"
+    android:orientation="vertical"
+    tools:context=".QuestionPensEducaFinancieraLevel2">
+
+    <!-- Barra contadora -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@color/color_menu_salir">
+
+        <ImageView
+            android:id="@+id/icon_regresar"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:background="@drawable/regreso"
+            android:backgroundTint="@color/white"
+            android:onClick="irSubmenuRazonamiento"
+            android:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/icon_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:text="Regresar al menú"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18sdp" />
+
+    </RelativeLayout>
+
+    <com.sasank.roundedhorizontalprogress.RoundedHorizontalProgressBar
+        android:id="@+id/quiz_timer"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_4sdp"
+        android:indeterminate="false"
+        android:maxHeight="12dp"
+        android:minHeight="12dp"
+        android:progress="10"
+        android:max="20"
+        app:backgroundColor="@color/colorPrimary"
+        app:progressColor="#FFC107"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <!-- Card Preguntas -->
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_7sdp"
+            android:layout_marginRight="@dimen/_7sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_7sdp"
+            android:layout_marginLeft="@dimen/_7sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_130sdp"
+            app:cardBackgroundColor="@color/white"
+            >
+
+            <TextView
+                android:id="@+id/card_preguntas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textColor="@color/black"/>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Card opiones respuesta -->
+        <androidx.cardview.widget.CardView
+            android:onClick="OptionClickA"
+            android:id="@+id/cardA"
+            app:cardCornerRadius="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            app:cardBackgroundColor="@color/white" >
+
+            <TextView
+                android:id="@+id/card_optionA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Response A"
+                android:layout_gravity="center"
+                />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:onClick="OptionClickB"
+            android:id="@+id/cardB"
+            app:cardCornerRadius="@dimen/_5sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            app:cardBackgroundColor="@color/white">
+
+            <TextView
+                android:id="@+id/card_optionB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Response B"
+                android:layout_gravity="center"
+                />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:onClick="OptionClickC"
+            android:id="@+id/cardC"
+            app:cardCornerRadius="@dimen/_5sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            app:cardBackgroundColor="@color/white">
+
+            <TextView
+                android:id="@+id/card_optionC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Response C"
+                android:layout_gravity="center"
+                />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:onClick="OptionClickD"
+            android:id="@+id/cardD"
+            app:cardCornerRadius="@dimen/_5sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            app:cardBackgroundColor="@color/white"
+            >
+
+            <TextView
+                android:id="@+id/card_optionD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Response D"
+                android:layout_gravity="center"
+                />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Card boton siguiente-->
+        <LinearLayout
+            android:id="@+id/nextBtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_marginStart="@dimen/_35sdp"
+            android:layout_marginRight="@dimen/_35sdp"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginEnd="@dimen/_35sdp"
+            android:gravity="center"
+            android:background="@drawable/next_btn_shape">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Siguiente"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:textAllCaps="true"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
