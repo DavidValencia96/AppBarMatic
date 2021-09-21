@@ -63,3 +63,5 @@ public class WonActivity extends AppCompatActivity {
         return; //inhabilitar el boton de retroceso
     }
 }
+
+//pendiente terminar de definir el nombre de usuario
