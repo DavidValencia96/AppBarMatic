@@ -286,7 +286,7 @@ public class QuestionPensProcesosLevel2 extends AppCompatActivity {
         }
     }
 
-    public void irSubmenuRazonamiento(View view){
+    public void irProcesos(View view){
         Intent i = new Intent(QuestionPensProcesosLevel2.this, SubmenuPensProcesos.class);
         startActivity(i);
     }

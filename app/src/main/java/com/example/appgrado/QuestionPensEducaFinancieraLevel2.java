@@ -287,7 +287,7 @@ public class QuestionPensEducaFinancieraLevel2 extends AppCompatActivity {
         }
     }
 
-    public void irSubmenuRazonamiento(View view){
+    public void irEdufinanciera(View view){
         Intent i = new Intent(QuestionPensEducaFinancieraLevel2.this, SubmenuPensEducaFinanciera.class);
         startActivity(i);
     }

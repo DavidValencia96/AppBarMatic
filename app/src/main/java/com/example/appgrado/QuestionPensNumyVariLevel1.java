@@ -287,7 +287,7 @@ public class QuestionPensNumyVariLevel1 extends AppCompatActivity {
         }
     }
 
-    public void irSubmenuRazonamiento(View view){
+    public void irNumYVariacional(View view){
         Intent i = new Intent(QuestionPensNumyVariLevel1.this, SubmenuPensNumyVari.class);
         startActivity(i);
     }

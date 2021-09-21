@@ -288,7 +288,7 @@ public class QuestionPensMetricoyGeomeLevel2 extends AppCompatActivity {
         }
     }
 
-    public void irSubmenuRazonamiento(View view){
+    public void irMetricoyGeometrica(View view){
         Intent i = new Intent(QuestionPensMetricoyGeomeLevel2.this, SubmenuPensMetricoyGeome.class);
         startActivity(i);
     }

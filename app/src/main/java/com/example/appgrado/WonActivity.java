@@ -51,6 +51,7 @@ public class WonActivity extends AppCompatActivity {
                 }
             }
         });
+
     }
     public void irSubmenuRazonamiento(View view){
         Intent i = new Intent(WonActivity.this, MenuActivity.class);

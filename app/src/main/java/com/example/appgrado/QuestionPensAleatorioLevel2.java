@@ -287,7 +287,7 @@ public class QuestionPensAleatorioLevel2 extends AppCompatActivity {
         }
     }
 
-    public void irSubmenuRazonamiento(View view){
+    public void irPensamiento(View view){
         Intent i = new Intent(QuestionPensAleatorioLevel2.this, SubmenuPensAleatorio.class);
         startActivity(i);
     }
