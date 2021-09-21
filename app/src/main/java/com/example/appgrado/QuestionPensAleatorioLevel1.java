@@ -33,6 +33,7 @@ public class QuestionPensAleatorioLevel1 extends AppCompatActivity {
     CardView ResponseA, ResponseB, ResponseC, ResponseD;
     int correctCount = 0;
     int incorrectCount = 0;
+    String nombreNivel = "nivel 1 de Pensamiento Aleatorio. ";
     LinearLayout nextBtn;
 
     @Override
@@ -195,6 +196,7 @@ public class QuestionPensAleatorioLevel1 extends AppCompatActivity {
         Intent intent = new Intent(QuestionPensAleatorioLevel1.this, WonActivity.class);
         intent.putExtra("correcta", correctCount);
         intent.putExtra("incorrecta", incorrectCount);
+        intent.putExtra("nombre_nivel", nombreNivel);
         startActivity(intent);
     }
 

@@ -38,6 +38,7 @@ public class QuestionRazonamientoLevel1 extends AppCompatActivity {
     CardView ResponseA, ResponseB, ResponseC, ResponseD;
     int correctCount = 0;
     int incorrectCount = 0;
+    String nombreNivel = "nivel 1 de Razonamiento Lógico. ";
     LinearLayout nextBtn;
 
     @Override
@@ -201,6 +202,7 @@ public class QuestionRazonamientoLevel1 extends AppCompatActivity {
         Intent intent = new Intent(QuestionRazonamientoLevel1.this, WonActivity.class);
         intent.putExtra("correcta", correctCount);
         intent.putExtra("incorrecta", incorrectCount);
+        intent.putExtra("nombre_nivel", nombreNivel);
         startActivity(intent);
     }
 

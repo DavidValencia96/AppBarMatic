@@ -33,6 +33,7 @@ public class QuestionRazonamientoLevel2 extends AppCompatActivity {
     CardView ResponseA, ResponseB, ResponseC, ResponseD;
     int correctCount = 0;
     int incorrectCount = 0;
+    String nombreNivel = "nivel 2 de Razonamiento Lógico. ";
     LinearLayout nextBtn;
 
     @Override
@@ -49,7 +50,7 @@ public class QuestionRazonamientoLevel2 extends AppCompatActivity {
 //        QuestionRazonamientoLevel1.add(new ModelClass("¿Por cuántos triángulos equiláteros está compuesta la siguiente figura?",
 //                "9","10","12","13", "13"));
 
-        QuestionRazonamientoLevel2.add(new ModelClass("QuestionrazonamientoLevel1",
+        QuestionRazonamientoLevel2.add(new ModelClass("QuestionrazonamientoLevel2",
                 "86","60","90","100", "90"));
 
         QuestionRazonamientoLevel2.add(new ModelClass("Doña Irina necesita desactivar un candado con clave, se sabe que la clave se abre con el grupo que continua en la siguiente serie:  2Z3, 4Y5, 6X7. ¿Con qué clave puede abrirse el candado?",
@@ -198,6 +199,7 @@ public class QuestionRazonamientoLevel2 extends AppCompatActivity {
         Intent intent = new Intent(QuestionRazonamientoLevel2.this, WonActivity.class);
         intent.putExtra("correcta", correctCount);
         intent.putExtra("incorrecta", incorrectCount);
+        intent.putExtra("nombre_nivel", nombreNivel);
         startActivity(intent);
     }
 

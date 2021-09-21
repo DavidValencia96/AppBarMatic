@@ -33,6 +33,7 @@ public class QuestionPensEducaFinancieraLevel2 extends AppCompatActivity {
     CardView ResponseA, ResponseB, ResponseC, ResponseD;
     int correctCount = 0;
     int incorrectCount = 0;
+    String nombreNivel = "nivel 2 de Educación Financiera. ";
     LinearLayout nextBtn;
 
     @Override
@@ -195,6 +196,7 @@ public class QuestionPensEducaFinancieraLevel2 extends AppCompatActivity {
         Intent intent = new Intent(QuestionPensEducaFinancieraLevel2.this, WonActivity.class);
         intent.putExtra("correcta", correctCount);
         intent.putExtra("incorrecta", incorrectCount);
+        intent.putExtra("nombre_nivel", nombreNivel);
         startActivity(intent);
     }
 

@@ -58,7 +58,7 @@
         android:layout_height="match_parent"
         android:gravity="center">
 
-        <!-- Card Preguntas -->
+        <!-- Card Preguntas git -->
         <androidx.cardview.widget.CardView
             app:cardCornerRadius="@dimen/_10sdp"
             android:layout_marginStart="@dimen/_7sdp"
