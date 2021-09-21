@@ -33,6 +33,7 @@ public class QuestionPensProcesosLevel2 extends AppCompatActivity {
     CardView ResponseA, ResponseB, ResponseC, ResponseD;
     int correctCount = 0;
     int incorrectCount = 0;
+    String nombreNivel = "nivel 2 de Análisis de Procesos. ";
     LinearLayout nextBtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -194,6 +195,7 @@ public class QuestionPensProcesosLevel2 extends AppCompatActivity {
         Intent intent = new Intent(QuestionPensProcesosLevel2.this, WonActivity.class);
         intent.putExtra("correcta", correctCount);
         intent.putExtra("incorrecta", incorrectCount);
+        intent.putExtra("nombre_nivel", nombreNivel);
         startActivity(intent);
     }
 
