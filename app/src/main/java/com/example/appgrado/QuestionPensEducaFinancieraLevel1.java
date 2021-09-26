@@ -48,35 +48,35 @@ public class QuestionPensEducaFinancieraLevel1 extends AppCompatActivity {
 //        QuestionPensEducaFinancieraLevel1.add(new ModelClass("¿Por cuántos triángulos equiláteros está compuesta la siguiente figura?",
 //                "9","10","12","13", "13"));
 
-        QuestionPensEducaFinancieraLevel1.add(new ModelClass(" QuestionPensEducaFinancieraLevel1",
-                "86","60","90","100", "90"));
+        QuestionPensEducaFinancieraLevel1.add(new ModelClass("Juan realiza un préstamo en una entidad bancaria donde le cobran un interés del 1% mensual sobre el capital solicitado. Si el préstamo fue por un monto de $100.000, ¿Cuánto dinero debe parar al cabo de 6 meses?",
+                "$110.000","$106.000","$101.000","$112.000", "$106.000"));
 
-        QuestionPensEducaFinancieraLevel1.add(new ModelClass("Doña Irina necesita desactivar un candado con clave, se sabe que la clave se abre con el grupo que continua en la siguiente serie:  2Z3, 4Y5, 6X7. ¿Con qué clave puede abrirse el candado?",
-                "8S10","8Y9","8V9","8W9", "8W9"));
+        QuestionPensEducaFinancieraLevel1.add(new ModelClass("María trabaja en una empresa donde tiene un salario básico de $ 1’500.000, pero le pagan unas horas extras, si por cada hora extra le pagan el 1% del sueldo y trabajo 10 horas en un mes, ¿cuánto será el devengado total?",
+                "$1’650.000","$1’700.000","$1’800.000","$1’950.000", "$1’650.000"));
 
-        QuestionPensEducaFinancieraLevel1.add(new ModelClass("¿Cuántos cuartos son seis mitades?",
-                "8 cuartos","10 cuartos","12 cuartos","14 cuartos", "12 cuartos"));
+        QuestionPensEducaFinancieraLevel1.add(new ModelClass("Para realizar una fiesta se cuenta con un presupuesto de $1’000.000, de este monto el 50% será invertido en la comida y el 50% del resto en licor y el sobrante en otros gastos. ¿Cuánto será invertido en otros gastos?",
+                "$230.000","$300.000","$250.000","$200.000", "$250.000"));
 
-        QuestionPensEducaFinancieraLevel1.add(new ModelClass("Una madre tiene 40 años y su hijo tiene 10. ¿Cuántos años deben pasar para que la edad de la madre sea el triple que la edad de su hijo?",
-                "5 años","7 años","10 años","4 años", "5 años"));
+        QuestionPensEducaFinancieraLevel1.add(new ModelClass("Susana y Miguel deciden hacer un ahorro juntos, Miguel aporta $ 500.000 y Susana la mitad de lo que aporta Miguel. Si por el ahorro el banco les paga el 20% en un año ¿Cuánto tendrán ahorrado al cabo del primer año?",
+                "$800.000","$850.000","$980.000","$900.000", "$900.000"));
 
-        QuestionPensEducaFinancieraLevel1.add(new ModelClass("Si, 5 máquinas hacen 5 artículos en 5 minutos. ¿Cuánto tiempo necesitarán 100 máquinas para hacer 100 artículos?",
-                "8 minutos","10 minutos","5 minutos","12 minutos", "5 minutos"));
+        QuestionPensEducaFinancieraLevel1.add(new ModelClass("Samuel trabaja en una empresa donde devenga $3’000.000 mensuales, si le hacen una deducción del 8% para el pago de la salud y la pensión, ¿Cuánto dinero le queda disponible a Samuel?",
+                "$2’760.000","$2’500.000","$2’450.000","$2’100.000", "$2’760.000"));
 
-        QuestionPensEducaFinancieraLevel1.add(new ModelClass("En la siguiente secuencia: 5, 13, 25, 41, 61… el número que sigue es?",
-                "77","92","85","96", "85"));
+        QuestionPensEducaFinancieraLevel1.add(new ModelClass("El señor Ramírez pidió prestado al Banco Agrario la suma de $2’000.000 para ser pagados en un plazo de 6 meses. Si la tasa de interés cobrada es del 2% mensual, ¿qué cantidad debe pagar el señor Ramírez al final del plazo?",
+                "$2’240.000","$2’380.000","$2’400.000","$2’530.000", "$2’240.000"));
 
-        QuestionPensEducaFinancieraLevel1.add(new ModelClass("Hugo, Jhosman y Liliana hicieron un total de 20 sándwiches. Jhosman hizo 3 veces más que Hugo, y Liliana hizo el doble que Jhosman. ¿Cuántos sándwiches hizo Hugo?",
-                "2","4","5","6", "2"));
+        QuestionPensEducaFinancieraLevel1.add(new ModelClass(" Un prestamista informal realiza préstamos cobrando una tasa de interés del 10% mensual sobre el capital, si José realiza un préstamo por $1’000.000 para pagarlo en 10 meses en cuotas iguales mensuales cada mes. ¿Cuánto debe pagar mensual?",
+                "$100.000","$200.000","$300.000","$400.000", "$200.000"));
 
-        QuestionPensEducaFinancieraLevel1.add(new ModelClass("Un restaurante está a 75% de su capacidad con 120 clientes. ¿Cuántas personas habría en el restaurante a 100% de su capacidad?",
-                "90","120","160","200", "160"));
+        QuestionPensEducaFinancieraLevel1.add(new ModelClass("En economía, el término inflación se refiere a:",
+                "La relación entre la rentabilidad y el capital en una economía","La posibilidad de invertir y generar más ingresos ","El crecimiento generalizado y continuo de los precios de los bienes y servicios de una economía.","La variación de los costos de los productos en una economía", "El crecimiento generalizado y continuo de los precios de los bienes y servicios de una economía."));
 
-        QuestionPensEducaFinancieraLevel1.add(new ModelClass("Juan tiene 56 años de edad. María es 6 años de edad mayor que José. La suma de las edades de María y José es la mitad de la edad de Juan. ¿Cuántos años de edad tiene María?",
-                "60","18","34","17", "17"));
+        QuestionPensEducaFinancieraLevel1.add(new ModelClass("Si el precio de un curso de inglés es de $300.000 al contado, pero pagado al crédito se recarga en un 18% y el crédito es de 6 meses, ¿cuál es el valor de las cuotas si son todas de igual valor?",
+                "$59.000","$114.000","$52.000","$54.000", "$59.000"));
 
-        QuestionPensEducaFinancieraLevel1.add(new ModelClass("Si 2 pintores tardan 6 días en pintar un muro. ¿Cuánto tardarán 3 pintores en realizar el mismo trabajo?",
-                "3","4","5","1", "4"));
+        QuestionPensEducaFinancieraLevel1.add(new ModelClass(" Marcos le presta $ 800.000 a Daniel para comprar un IPhone y le pone como condición que a los cuatro meses le devuelva la suma de $960.000. En esta transacción ¿Cuál es la tasa de interés mensual que cobra Marcos?",
+                "10%","5%","15%","20%", "5%"));
 
 //        QuestionPensEducaFinancieraLevel1.add(new ModelClass("Si 2 pintores tardan 6 días en pintar un muro. ¿Cuánto tardarán 3 pintores en realizar el mismo trabajo?", R.drawable.acercade,
 //                "3","4","5","1", "4"));
@@ -287,7 +287,7 @@ public class QuestionPensEducaFinancieraLevel1 extends AppCompatActivity {
         }
     }
 
-    public void irSubmenuRazonamiento(View view){
+    public void irEdufinanciera(View view){
         Intent i = new Intent(QuestionPensEducaFinancieraLevel1.this, SubmenuPensEducaFinanciera.class);
         startActivity(i);
     }

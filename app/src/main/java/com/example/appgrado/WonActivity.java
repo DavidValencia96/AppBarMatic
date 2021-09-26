@@ -33,7 +33,7 @@ public class WonActivity extends AppCompatActivity {
         btn_Share = findViewById(R.id.btn_Share);
 
         circularProgressBar.setProgress(correcta);
-        resultTest.setText(correcta + "/11");
+        resultTest.setText(correcta + "/10");
 
         btn_Share.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -42,7 +42,7 @@ public class WonActivity extends AppCompatActivity {
                     Intent shareIntent = new Intent(Intent.ACTION_SEND);
                     shareIntent.setType("text/plain");
                     shareIntent.putExtra(Intent.EXTRA_SUBJECT, "BarMaTic");
-                    String shareMessage= "\nMi puntuación fue: "+ correcta + " respuesta(s) correcta(s) de 11, en el " + nombreNivel;
+                    String shareMessage= "\nMi puntuación fue: "+ correcta + " respuesta(s) correcta(s) de 10, en el " + nombreNivel;
                     shareMessage = shareMessage + "https://play.google.com/store/apps/details?id=" + BuildConfig.APPLICATION_ID +"\n\n";
                     shareIntent.putExtra(Intent.EXTRA_TEXT, shareMessage);
                     startActivity(Intent.createChooser(shareIntent, "Compartir en"));
@@ -51,6 +51,7 @@ public class WonActivity extends AppCompatActivity {
                 }
             }
         });
+
     }
     public void irSubmenuRazonamiento(View view){
         Intent i = new Intent(WonActivity.this, MenuActivity.class);
@@ -62,3 +63,5 @@ public class WonActivity extends AppCompatActivity {
         return; //inhabilitar el boton de retroceso
     }
 }
+
+//pendiente terminar de definir el nombre de usuario

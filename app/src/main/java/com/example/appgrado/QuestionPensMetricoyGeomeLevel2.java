@@ -49,35 +49,35 @@ public class QuestionPensMetricoyGeomeLevel2 extends AppCompatActivity {
 //        QuestionPensNumyVariLevel1.add(new ModelClass("¿Por cuántos triángulos equiláteros está compuesta la siguiente figura?",
 //                "9","10","12","13", "13"));
 
-        QuestionPensMetricoyGeomeLevel2.add(new ModelClass(" QuestionPensMetricoyGeomeLevel2",
-                "86","60","90","100", "90"));
+        QuestionPensMetricoyGeomeLevel2.add(new ModelClass("Si en un rectángulo se aumenta la longitud de uno de sus lados en 100 %, su área",
+                "Aumenta en un 50 %","Se duplica","No cambia","Aumenta en 100 unidades", "Se duplica"));
 
-        QuestionPensMetricoyGeomeLevel2.add(new ModelClass("Doña Irina necesita desactivar un candado con clave, se sabe que la clave se abre con el grupo que continua en la siguiente serie:  2Z3, 4Y5, 6X7. ¿Con qué clave puede abrirse el candado?",
-                "8S10","8Y9","8V9","8W9", "8W9"));
+        QuestionPensMetricoyGeomeLevel2.add(new ModelClass("A cuántos cm equivalen 2,5 metros",
+                "25 cm","2500 cm","250 cm","0,25 cm", "250 cm"));
 
-        QuestionPensMetricoyGeomeLevel2.add(new ModelClass("¿Cuántos cuartos son seis mitades?",
-                "8 cuartos","10 cuartos","12 cuartos","14 cuartos", "12 cuartos"));
+        QuestionPensMetricoyGeomeLevel2.add(new ModelClass("En un triángulo rectángulo la medida de la hipotenusa es de 5 cm, mientras que uno de sus catetos mide 3 cm, ¿cuál es la medida del otro cateto?",
+                "2 cm","3 cm","4 cm","5 cm", "4 cm"));
 
-        QuestionPensMetricoyGeomeLevel2.add(new ModelClass("Una madre tiene 40 años y su hijo tiene 10. ¿Cuántos años deben pasar para que la edad de la madre sea el triple que la edad de su hijo?",
-                "5 años","7 años","10 años","4 años", "5 años"));
+        QuestionPensMetricoyGeomeLevel2.add(new ModelClass("El largo de un rectángulo es el doble del ancho.  El perímetro es de 60cm. ¿Cuáles son las medidas del largo y del ancho del rectángulo?",
+                "7 y 14 cm","12 y 24 cm","8 y 16 cm","10 y 20 cm", "10 y 20 cm"));
 
-        QuestionPensMetricoyGeomeLevel2.add(new ModelClass("Si, 5 máquinas hacen 5 artículos en 5 minutos. ¿Cuánto tiempo necesitarán 100 máquinas para hacer 100 artículos?",
-                "8 minutos","10 minutos","5 minutos","12 minutos", "5 minutos"));
+        QuestionPensMetricoyGeomeLevel2.add(new ModelClass("Un albañil tiene que embaldosar un salón de forma cuadrada que tiene de lado 8 metros; si en cada metro cuadrado se utilizan 16 baldosas, ¿Cuántas baldosas son necesarias para cubrir todo el salón?",
+                "1024 baldosas","924 baldosas","1124 baldosas","1000 baldosas", "1024 baldosas"));
 
-        QuestionPensMetricoyGeomeLevel2.add(new ModelClass("En la siguiente secuencia: 5, 13, 25, 41, 61… el número que sigue es?",
-                "77","92","85","96", "85"));
+        QuestionPensMetricoyGeomeLevel2.add(new ModelClass("Si un cuadrado, un triángulo y un rectángulo tiene cada uno 24 cm de perímetro.  Se puede afirmar que:",
+                "Todas las figuras tienen igual área","El cuadrado es la figura que tiene mayor área","El triángulo es la figura que tiene mayor área","El rectángulo es la figura que tiene mayor área", "El cuadrado es la figura que tiene mayor área"));
 
-        QuestionPensMetricoyGeomeLevel2.add(new ModelClass("Hugo, Jhosman y Liliana hicieron un total de 20 sándwiches. Jhosman hizo 3 veces más que Hugo, y Liliana hizo el doble que Jhosman. ¿Cuántos sándwiches hizo Hugo?",
-                "2","4","5","6", "2"));
+        QuestionPensMetricoyGeomeLevel2.add(new ModelClass("La suma de los ángulos internos de un cuadrilátero es igual a:",
+                "360º","180º","270º","100º", "360º"));
 
-        QuestionPensMetricoyGeomeLevel2.add(new ModelClass("Un restaurante está a 75% de su capacidad con 120 clientes. ¿Cuántas personas habría en el restaurante a 100% de su capacidad?",
-                "90","120","160","200", "160"));
+        QuestionPensMetricoyGeomeLevel2.add(new ModelClass("Un trapezoide es un cuadrilátero que tiene:",
+                "Dos pares de lados paralelos","Un par de lados paralelos","Ningún par de lados paralelos","Un ángulo recto", "Ningún par de lados paralelos"));
 
-        QuestionPensMetricoyGeomeLevel2.add(new ModelClass("Juan tiene 56 años de edad. María es 6 años de edad mayor que José. La suma de las edades de María y José es la mitad de la edad de Juan. ¿Cuántos años de edad tiene María?",
-                "60","18","34","17", "17"));
+        QuestionPensMetricoyGeomeLevel2.add(new ModelClass("El punto donde se cortan las tres bisectrices de los ángulos internos de un triángulo se denomina: ",
+                "Cincuncentro","Incentro","Baricentro","Ortocentro", "Incentro"));
 
-        QuestionPensMetricoyGeomeLevel2.add(new ModelClass("Si 2 pintores tardan 6 días en pintar un muro. ¿Cuánto tardarán 3 pintores en realizar el mismo trabajo?",
-                "3","4","5","1", "4"));
+        QuestionPensMetricoyGeomeLevel2.add(new ModelClass("La suma de los ángulos exteriores de un triángulo cualquiera es igual a:",
+                "90º","180º","270º","360º", "360º"));
 
 //        QuestionPensMetricoyGeomeLevel2.add(new ModelClass("Si 2 pintores tardan 6 días en pintar un muro. ¿Cuánto tardarán 3 pintores en realizar el mismo trabajo?", R.drawable.acercade,
 //                "3","4","5","1", "4"));
@@ -288,7 +288,7 @@ public class QuestionPensMetricoyGeomeLevel2 extends AppCompatActivity {
         }
     }
 
-    public void irSubmenuRazonamiento(View view){
+    public void irMetricoyGeometrica(View view){
         Intent i = new Intent(QuestionPensMetricoyGeomeLevel2.this, SubmenuPensMetricoyGeome.class);
         startActivity(i);
     }

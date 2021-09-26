@@ -48,35 +48,35 @@ public class QuestionPensEducaFinancieraLevel2 extends AppCompatActivity {
 //        QuestionPensEducaFinancieraLevel2.add(new ModelClass("¿Por cuántos triángulos equiláteros está compuesta la siguiente figura?",
 //                "9","10","12","13", "13"));
 
-        QuestionPensEducaFinancieraLevel2.add(new ModelClass(" QuestionPensEducaFinancieraLevel2",
-                "86","60","90","100", "90"));
+        QuestionPensEducaFinancieraLevel2.add(new ModelClass("Test1",
+                "$110.000","$106.000","$101.000","$112.000", "$106.000"));
 
-        QuestionPensEducaFinancieraLevel2.add(new ModelClass("Doña Irina necesita desactivar un candado con clave, se sabe que la clave se abre con el grupo que continua en la siguiente serie:  2Z3, 4Y5, 6X7. ¿Con qué clave puede abrirse el candado?",
-                "8S10","8Y9","8V9","8W9", "8W9"));
+        QuestionPensEducaFinancieraLevel2.add(new ModelClass("Test2",
+                "$1’650.000","$1’700.000","$1’800.000","$1’950.000", "$1’650.000"));
 
-        QuestionPensEducaFinancieraLevel2.add(new ModelClass("¿Cuántos cuartos son seis mitades?",
-                "8 cuartos","10 cuartos","12 cuartos","14 cuartos", "12 cuartos"));
+        QuestionPensEducaFinancieraLevel2.add(new ModelClass("Test3",
+                "$230.000","$300.000","$250.000","$200.000", "$250.000"));
 
-        QuestionPensEducaFinancieraLevel2.add(new ModelClass("Una madre tiene 40 años y su hijo tiene 10. ¿Cuántos años deben pasar para que la edad de la madre sea el triple que la edad de su hijo?",
-                "5 años","7 años","10 años","4 años", "5 años"));
+        QuestionPensEducaFinancieraLevel2.add(new ModelClass("Test4",
+                "$800.000","$850.000","$980.000","$900.000", "$900.000"));
 
-        QuestionPensEducaFinancieraLevel2.add(new ModelClass("Si, 5 máquinas hacen 5 artículos en 5 minutos. ¿Cuánto tiempo necesitarán 100 máquinas para hacer 100 artículos?",
-                "8 minutos","10 minutos","5 minutos","12 minutos", "5 minutos"));
+        QuestionPensEducaFinancieraLevel2.add(new ModelClass("Test5",
+                "$2’760.000","$2’500.000","$2’450.000","$2’100.000", "$2’760.000"));
 
-        QuestionPensEducaFinancieraLevel2.add(new ModelClass("En la siguiente secuencia: 5, 13, 25, 41, 61… el número que sigue es?",
-                "77","92","85","96", "85"));
+        QuestionPensEducaFinancieraLevel2.add(new ModelClass("Test6",
+                "$2’240.000","$2’380.000","$2’400.000","$2’530.000", "$2’240.000"));
 
-        QuestionPensEducaFinancieraLevel2.add(new ModelClass("Hugo, Jhosman y Liliana hicieron un total de 20 sándwiches. Jhosman hizo 3 veces más que Hugo, y Liliana hizo el doble que Jhosman. ¿Cuántos sándwiches hizo Hugo?",
-                "2","4","5","6", "2"));
+        QuestionPensEducaFinancieraLevel2.add(new ModelClass("Test7",
+                "$100.000","$200.000","$300.000","$400.000", "$200.000"));
 
-        QuestionPensEducaFinancieraLevel2.add(new ModelClass("Un restaurante está a 75% de su capacidad con 120 clientes. ¿Cuántas personas habría en el restaurante a 100% de su capacidad?",
-                "90","120","160","200", "160"));
+        QuestionPensEducaFinancieraLevel2.add(new ModelClass("Test8",
+                "La relación entre la rentabilidad y el capital en una economía","La posibilidad de invertir y generar más ingresos ","El crecimiento generalizado y continuo de los precios de los bienes y servicios de una economía.","La variación de los costos de los productos en una economía", "El crecimiento generalizado y continuo de los precios de los bienes y servicios de una economía."));
 
-        QuestionPensEducaFinancieraLevel2.add(new ModelClass("Juan tiene 56 años de edad. María es 6 años de edad mayor que José. La suma de las edades de María y José es la mitad de la edad de Juan. ¿Cuántos años de edad tiene María?",
-                "60","18","34","17", "17"));
+        QuestionPensEducaFinancieraLevel2.add(new ModelClass("Test9",
+                "$59.000","$114.000","$52.000","$54.000", "$59.000"));
 
-        QuestionPensEducaFinancieraLevel2.add(new ModelClass("Si 2 pintores tardan 6 días en pintar un muro. ¿Cuánto tardarán 3 pintores en realizar el mismo trabajo?",
-                "3","4","5","1", "4"));
+        QuestionPensEducaFinancieraLevel2.add(new ModelClass("Test10",
+                "10%","5%","15%","20%", "5%"));
 
 //        QuestionPensEducaFinancieraLevel2.add(new ModelClass("Si 2 pintores tardan 6 días en pintar un muro. ¿Cuánto tardarán 3 pintores en realizar el mismo trabajo?", R.drawable.acercade,
 //                "3","4","5","1", "4"));
@@ -287,7 +287,7 @@ public class QuestionPensEducaFinancieraLevel2 extends AppCompatActivity {
         }
     }
 
-    public void irSubmenuRazonamiento(View view){
+    public void irEdufinanciera(View view){
         Intent i = new Intent(QuestionPensEducaFinancieraLevel2.this, SubmenuPensEducaFinanciera.class);
         startActivity(i);
     }

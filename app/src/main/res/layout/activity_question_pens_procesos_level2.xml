@@ -23,7 +23,7 @@
             android:layout_marginLeft="@dimen/_10sdp"
             android:background="@drawable/regreso"
             android:backgroundTint="@color/white"
-            android:onClick="irSubmenuRazonamiento"
+            android:onClick="irProcesos"
             android:tint="@color/white" />
 
         <TextView

@@ -48,35 +48,35 @@ public class QuestionPensAleatorioLevel2 extends AppCompatActivity {
 //        QuestionPensAleatorioLevel2.add(new ModelClass("¿Por cuántos triángulos equiláteros está compuesta la siguiente figura?",
 //                "9","10","12","13", "13"));
 
-        QuestionPensAleatorioLevel2.add(new ModelClass(" QuestionPensAleatorioLevel2",
-                "86","60","90","100", "90"));
+        QuestionPensAleatorioLevel2.add(new ModelClass("Con los dígitos 1,2,3,4,5,6 y 9 ¿cuántos números de tres cifras se pueden formar si los números deben empezar por 2, ser múltiplos de 5 y no tener cifras repetidas?",
+                "10","15","5","7", "5"));
 
-        QuestionPensAleatorioLevel2.add(new ModelClass("Doña Irina necesita desactivar un candado con clave, se sabe que la clave se abre con el grupo que continua en la siguiente serie:  2Z3, 4Y5, 6X7. ¿Con qué clave puede abrirse el candado?",
-                "8S10","8Y9","8V9","8W9", "8W9"));
+        QuestionPensAleatorioLevel2.add(new ModelClass("Las notas de otro estudiante en los dos primeros exámenes fueron 2,0 y 3,0 respectivamente. El estudiante aprobó el curso ¿Cuál fue la nota mínima que este estudiante pudo obtener en el tercer examen?",
+                "2,0","3,0","4,0","5,0", "4,0"));
 
-        QuestionPensAleatorioLevel2.add(new ModelClass("¿Cuántos cuartos son seis mitades?",
-                "8 cuartos","10 cuartos","12 cuartos","14 cuartos", "12 cuartos"));
+        QuestionPensAleatorioLevel2.add(new ModelClass("La siguiente gráfica muestra el número de animales de cada especie que hay en un parque ecológico. ¿Cuál de las siguientes afirmaciones sobre los animales que hay en el parque ecológico no es correcta?",
+                "Hay menos aves que reptiles","Hay menos mamíferos que anfibios","Hay más reptiles que anfibios","Hay más mamíferos que aves", "Hay más reptiles que anfibios"));
 
-        QuestionPensAleatorioLevel2.add(new ModelClass("Una madre tiene 40 años y su hijo tiene 10. ¿Cuántos años deben pasar para que la edad de la madre sea el triple que la edad de su hijo?",
-                "5 años","7 años","10 años","4 años", "5 años"));
+        QuestionPensAleatorioLevel2.add(new ModelClass("Un colegio necesita enviar 5 estudiantes como representantes a un foro sobre la contaminación del medio ambiente. Se decidió que 2 estudiantes sean de grado décimo y 3 de grado undécimo. En décimo hay 5 estudiantes preparados para el foro y en undécimo hay 4. ¿Cuántos grupos diferentes pueden formarse para enviar al foro?",
+                "9","14","20","40", "40"));
 
-        QuestionPensAleatorioLevel2.add(new ModelClass("Si, 5 máquinas hacen 5 artículos en 5 minutos. ¿Cuánto tiempo necesitarán 100 máquinas para hacer 100 artículos?",
-                "8 minutos","10 minutos","5 minutos","12 minutos", "5 minutos"));
+        QuestionPensAleatorioLevel2.add(new ModelClass("Diego necesita encontrar la media aritmética de las notas que sacó en el primer período, para esto el procedimiento que debería realizar es: ",
+                "Sumar todos los datos y luego dividirlos entre la cantidad total de datos","Multiplicar los datos y luego dividirlos entre la cantidad total de datos","Sumar todos los datos y luego dividirlos entre 10","Multiplicar todos los datos y luego dividirlos entre 10", "Sumar todos los datos y luego dividirlos entre la cantidad total de datos"));
 
-        QuestionPensAleatorioLevel2.add(new ModelClass("En la siguiente secuencia: 5, 13, 25, 41, 61… el número que sigue es?",
-                "77","92","85","96", "85"));
+        QuestionPensAleatorioLevel2.add(new ModelClass("Emiliano lanza dos monedas al aire, ¿cuál es la probabilidad de que en el lanzamiento se obtengan dos sellos?",
+                "1/4","1/2","4","2", "1/4"));
 
-        QuestionPensAleatorioLevel2.add(new ModelClass("Hugo, Jhosman y Liliana hicieron un total de 20 sándwiches. Jhosman hizo 3 veces más que Hugo, y Liliana hizo el doble que Jhosman. ¿Cuántos sándwiches hizo Hugo?",
-                "2","4","5","6", "2"));
+        QuestionPensAleatorioLevel2.add(new ModelClass("¿Cuál de estos números no puede ser una probabilidad?",
+                "20%","1/4","0,001","1,25", "1,25"));
 
-        QuestionPensAleatorioLevel2.add(new ModelClass("Un restaurante está a 75% de su capacidad con 120 clientes. ¿Cuántas personas habría en el restaurante a 100% de su capacidad?",
-                "90","120","160","200", "160"));
+        QuestionPensAleatorioLevel2.add(new ModelClass("Una baraja contiene 3 cartas rojas, 7 cartas verdes y 10 cartas blancas. Si se extrae una carta de la baraja al azar, ¿cuál es la probabilidad de que esta sea blanca?",
+                "1/3","1/4","1/2","1/2", "1/2"));
 
-        QuestionPensAleatorioLevel2.add(new ModelClass("Juan tiene 56 años de edad. María es 6 años de edad mayor que José. La suma de las edades de María y José es la mitad de la edad de Juan. ¿Cuántos años de edad tiene María?",
-                "60","18","34","17", "17"));
+        QuestionPensAleatorioLevel2.add(new ModelClass("En estadística, la medida de centralización que divide a la muestra en dos partes iguales de denomina:",
+                "Moda","Media","Mediana","Cuartil", "Mediana"));
 
-        QuestionPensAleatorioLevel2.add(new ModelClass("Si 2 pintores tardan 6 días en pintar un muro. ¿Cuánto tardarán 3 pintores en realizar el mismo trabajo?",
-                "3","4","5","1", "4"));
+        QuestionPensAleatorioLevel2.add(new ModelClass("Decir que dos sucesos son excluyentes es decir que son:",
+                "Independientes","Complementarios","Incompatibles","Dependientes", "Incompatibles"));
 
 //        QuestionPensAleatorioLevel2.add(new ModelClass("Si 2 pintores tardan 6 días en pintar un muro. ¿Cuánto tardarán 3 pintores en realizar el mismo trabajo?", R.drawable.acercade,
 //                "3","4","5","1", "4"));
@@ -287,7 +287,7 @@ public class QuestionPensAleatorioLevel2 extends AppCompatActivity {
         }
     }
 
-    public void irSubmenuRazonamiento(View view){
+    public void irPensamiento(View view){
         Intent i = new Intent(QuestionPensAleatorioLevel2.this, SubmenuPensAleatorio.class);
         startActivity(i);
     }
