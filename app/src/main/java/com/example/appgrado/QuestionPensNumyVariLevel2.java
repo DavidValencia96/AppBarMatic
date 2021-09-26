@@ -48,35 +48,35 @@ public class QuestionPensNumyVariLevel2 extends AppCompatActivity {
 //        QuestionPensNumyVariLevel1.add(new ModelClass("¿Por cuántos triángulos equiláteros está compuesta la siguiente figura?",
 //                "9","10","12","13", "13"));
 
-        QuestionPensNumyVariLevel2.add(new ModelClass(" QuestionPensNumyVariLevel2",
-                "86","60","90","100", "90"));
+        QuestionPensNumyVariLevel2.add(new ModelClass("Al calcular el 20% del 50% de 800, se obtiene:",
+                "40","50","80","60", "80"));
 
-        QuestionPensNumyVariLevel2.add(new ModelClass("Doña Irina necesita desactivar un candado con clave, se sabe que la clave se abre con el grupo que continua en la siguiente serie:  2Z3, 4Y5, 6X7. ¿Con qué clave puede abrirse el candado?",
-                "8S10","8Y9","8V9","8W9", "8W9"));
+        QuestionPensNumyVariLevel2.add(new ModelClass("5 cuadernos y 8 lápices cuestan $11500 y 3 cuadernos y 5 lápices cuestan $7000. ¿Cuánto cuesta cada lápiz y cada cuaderno?",
+                "Cada cuaderno $1300 y cada lápiz $750","Cada cuaderno $1500 y cada lápiz $500","Cada cuaderno $1850 y cada lápiz $700","Cada cuaderno $1700 y cada lápiz $ 800", "Cada cuaderno $1500 y cada lápiz $500"));
 
-        QuestionPensNumyVariLevel2.add(new ModelClass("¿Cuántos cuartos son seis mitades?",
-                "8 cuartos","10 cuartos","12 cuartos","14 cuartos", "12 cuartos"));
+        QuestionPensNumyVariLevel2.add(new ModelClass("Un estudiante de grado décimo presenta las siguientes 5 notas en matemáticas: Nota 1: 3,6. Nota 2: 4,4. Nota 3: 3,2. Nota 4: 5,0. Nota 5: 3,8. Si todas las notas tienen el mismo porcentaje sobre la nota final, ¿Cuál es la nota definitiva del estudiante?",
+                "3,8","3,6","4,0","4,2", "4,0"));
 
-        QuestionPensNumyVariLevel2.add(new ModelClass("Una madre tiene 40 años y su hijo tiene 10. ¿Cuántos años deben pasar para que la edad de la madre sea el triple que la edad de su hijo?",
-                "5 años","7 años","10 años","4 años", "5 años"));
+        QuestionPensNumyVariLevel2.add(new ModelClass("Para construir una pared de 12 m de largo y 5 m de alto se necesitan 400 ladrillos. ¿qué altura tendrá la pared, si tuviera 4m de largo y se contara solo con 400 ladrillos?",
+                "Tendrá una altura de 7,5 m","Tendrá una altura de 6,8 m","Tendrá una altura de 9,4 m","Tendrá una altura de 8,2 m", "Tendrá una altura de 7,5 m"));
 
-        QuestionPensNumyVariLevel2.add(new ModelClass("Si, 5 máquinas hacen 5 artículos en 5 minutos. ¿Cuánto tiempo necesitarán 100 máquinas para hacer 100 artículos?",
-                "8 minutos","10 minutos","5 minutos","12 minutos", "5 minutos"));
+        QuestionPensNumyVariLevel2.add(new ModelClass("Al resolver la operación: 2 + {3 – [(5 + 6) * (3 – 7)]}",
+                "52","60","38","49", "49"));
 
-        QuestionPensNumyVariLevel2.add(new ModelClass("En la siguiente secuencia: 5, 13, 25, 41, 61… el número que sigue es?",
-                "77","92","85","96", "85"));
+        QuestionPensNumyVariLevel2.add(new ModelClass("El número que continúa en la sucesión 1, 1, 1, 3, 5, 9, 17… es",
+                "26","20","31","38", "31"));
 
-        QuestionPensNumyVariLevel2.add(new ModelClass("Hugo, Jhosman y Liliana hicieron un total de 20 sándwiches. Jhosman hizo 3 veces más que Hugo, y Liliana hizo el doble que Jhosman. ¿Cuántos sándwiches hizo Hugo?",
-                "2","4","5","6", "2"));
+        QuestionPensNumyVariLevel2.add(new ModelClass("El triple de un número más 8, es igual a siete veces el número. ¿Cuál es el número?",
+                "2","3","4","5", "2"));
 
-        QuestionPensNumyVariLevel2.add(new ModelClass("Un restaurante está a 75% de su capacidad con 120 clientes. ¿Cuántas personas habría en el restaurante a 100% de su capacidad?",
-                "90","120","160","200", "160"));
+        QuestionPensNumyVariLevel2.add(new ModelClass("5 autobuses transportan 800 pasajeros en 4 viajes. ¿Cuántos viajes son necesarios para transportar 400 pasajeros usando 2 autobuses?",
+                "3 viajes","7 viajes","5 viajes","6 viajes", "5 viajes"));
 
-        QuestionPensNumyVariLevel2.add(new ModelClass("Juan tiene 56 años de edad. María es 6 años de edad mayor que José. La suma de las edades de María y José es la mitad de la edad de Juan. ¿Cuántos años de edad tiene María?",
-                "60","18","34","17", "17"));
+        QuestionPensNumyVariLevel2.add(new ModelClass("Mónica se monta en el ascensor en la planta baja de su edificio, el ascensor sube 5 pisos, después baja 3, sube 5, baja 8, sube 10, sube 5 y baja 6. ¿En qué piso está Mónica?",
+                "Quinto piso","Sexto piso","Séptimo piso","Octavo piso", "Octavo piso"));
 
-        QuestionPensNumyVariLevel2.add(new ModelClass("Si 2 pintores tardan 6 días en pintar un muro. ¿Cuánto tardarán 3 pintores en realizar el mismo trabajo?",
-                "3","4","5","1", "4"));
+        QuestionPensNumyVariLevel2.add(new ModelClass(" En un museo, la visita es guiada y entran 25 personas cada 25 minutos. La visita dura 90 minutos. El primer grupo entra a las 9:00 am ¿Cuántos visitantes hay dentro del museo a las 10:00 am?",
+                "75 personas","80 personas","70 personas","85 personas", "75 personas"));
 
 //        QuestionPensNumyVariLevel1.add(new ModelClass("Si 2 pintores tardan 6 días en pintar un muro. ¿Cuánto tardarán 3 pintores en realizar el mismo trabajo?", R.drawable.acercade,
 //                "3","4","5","1", "4"));

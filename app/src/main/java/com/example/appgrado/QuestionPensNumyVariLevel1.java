@@ -48,35 +48,35 @@ public class QuestionPensNumyVariLevel1 extends AppCompatActivity {
 //        QuestionPensNumyVariLevel1.add(new ModelClass("¿Por cuántos triángulos equiláteros está compuesta la siguiente figura?",
 //                "9","10","12","13", "13"));
 
-        QuestionPensNumyVariLevel1.add(new ModelClass(" QuestionPensNumyVariLevel1",
-                "86","60","90","100", "90"));
+        QuestionPensNumyVariLevel1.add(new ModelClass("En el número 43.678, el número 3 representa:",
+                "La cifra de las unidades","La cifra de las decenas de mil","La cifra de las unidades de mil","La cifra de las decenas", "La cifra de las unidades de mil"));
 
-        QuestionPensNumyVariLevel1.add(new ModelClass("Doña Irina necesita desactivar un candado con clave, se sabe que la clave se abre con el grupo que continua en la siguiente serie:  2Z3, 4Y5, 6X7. ¿Con qué clave puede abrirse el candado?",
-                "8S10","8Y9","8V9","8W9", "8W9"));
+        QuestionPensNumyVariLevel1.add(new ModelClass("Al sumar los números: 65,4 + 22 + 0,24 + 157,06 se obtiene:",
+                "244,7","24,47","2447","2,447", "244,7"));
 
-        QuestionPensNumyVariLevel1.add(new ModelClass("¿Cuántos cuartos son seis mitades?",
-                "8 cuartos","10 cuartos","12 cuartos","14 cuartos", "12 cuartos"));
+        QuestionPensNumyVariLevel1.add(new ModelClass("La profe Suyis va a realizar una rifa entre los estudiantes del grado sexto, ella ha determinado que el estudiante ganador será quien tenga el número que se obtiene al calcular el mínimo común múltiplo entre 18, 24 y 48. Según esas condiciones el ganador será el número:",
+                "120","144","210","150", "144"));
 
-        QuestionPensNumyVariLevel1.add(new ModelClass("Una madre tiene 40 años y su hijo tiene 10. ¿Cuántos años deben pasar para que la edad de la madre sea el triple que la edad de su hijo?",
-                "5 años","7 años","10 años","4 años", "5 años"));
+        QuestionPensNumyVariLevel1.add(new ModelClass("Juana compró una pizza que estaba dividida en 12 porciones, si Miguel se comió las tres cuartas partes de la pizza, ¿Cuántas porciones le quedaron a Juana?",
+                "3 porciones","4 porciones","2 porciones","5 porciones", "3 porciones"));
 
-        QuestionPensNumyVariLevel1.add(new ModelClass("Si, 5 máquinas hacen 5 artículos en 5 minutos. ¿Cuánto tiempo necesitarán 100 máquinas para hacer 100 artículos?",
-                "8 minutos","10 minutos","5 minutos","12 minutos", "5 minutos"));
+        QuestionPensNumyVariLevel1.add(new ModelClass("Si se sabe que 162 litros de vino cuestan $324.000, ¿Cuál es el valor de 285 litros de la misma calidad?",
+                "$650.000","$410.000","$740.000","$570.000", "$570.000"));
 
-        QuestionPensNumyVariLevel1.add(new ModelClass("En la siguiente secuencia: 5, 13, 25, 41, 61… el número que sigue es?",
-                "77","92","85","96", "85"));
+        QuestionPensNumyVariLevel1.add(new ModelClass("El profe Rosemberg quiere comprarse una camisa nueva y va a un almacén donde se encuentran en ofertas, si la camisa que quiere cuesta $70.000 y tiene un descuento del 25%, ¿cuánto le están descontando?",
+                "$17.500","$18.000","$16.450","$19.000", "$17.500"));
 
-        QuestionPensNumyVariLevel1.add(new ModelClass("Hugo, Jhosman y Liliana hicieron un total de 20 sándwiches. Jhosman hizo 3 veces más que Hugo, y Liliana hizo el doble que Jhosman. ¿Cuántos sándwiches hizo Hugo?",
-                "2","4","5","6", "2"));
+        QuestionPensNumyVariLevel1.add(new ModelClass("El profe Rosemberg quiere comprarse una camisa nueva y va a un almacén donde se encuentran en ofertas, si la camisa que quiere cuesta $70.000 y tiene un descuento del 25%, ¿cuánto debe pagar por la camisa?",
+                "$52.500","$52.000","$53.550","$51.000", "$52.500"));
 
-        QuestionPensNumyVariLevel1.add(new ModelClass("Un restaurante está a 75% de su capacidad con 120 clientes. ¿Cuántas personas habría en el restaurante a 100% de su capacidad?",
-                "90","120","160","200", "160"));
+        QuestionPensNumyVariLevel1.add(new ModelClass("Un estudiante del grado noveno tiene en su finca vacas y caballos que sumados son 40. Si tiene 22 caballos, ¿qué porcentaje representa el número de vacas?",
+                "Las vacas representan el 20%","Las vacas representan el 40%","Las vacas representan el 15%","Las vacas representan el 45%", "Las vacas representan el 45%"));
 
-        QuestionPensNumyVariLevel1.add(new ModelClass("Juan tiene 56 años de edad. María es 6 años de edad mayor que José. La suma de las edades de María y José es la mitad de la edad de Juan. ¿Cuántos años de edad tiene María?",
-                "60","18","34","17", "17"));
+        QuestionPensNumyVariLevel1.add(new ModelClass("María vive en una finca a 40 km del colegio, si ella viaja en moto y se tarda 15 minutos en recorrer 10 km, ¿cuánto tiempo requiere para hacer el recorrido desde la finca hasta el colegio?",
+                "45 minutos","30 minutos","1 hora","1 hora y 30 minutos", "1 hora"));
 
-        QuestionPensNumyVariLevel1.add(new ModelClass("Si 2 pintores tardan 6 días en pintar un muro. ¿Cuánto tardarán 3 pintores en realizar el mismo trabajo?",
-                "3","4","5","1", "4"));
+        QuestionPensNumyVariLevel1.add(new ModelClass(" La suma de tres números es 44. El primero es el triple del segundo y 12 más que el tercero. ¿Cuáles son los números?",
+                "23, 7 y 14","24, 8 y 12","26, 7 y 11","25, 9 y 10", "24, 8 y 12"));
 
 //        QuestionPensNumyVariLevel1.add(new ModelClass("Si 2 pintores tardan 6 días en pintar un muro. ¿Cuánto tardarán 3 pintores en realizar el mismo trabajo?", R.drawable.acercade,
 //                "3","4","5","1", "4"));

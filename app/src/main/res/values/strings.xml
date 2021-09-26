@@ -25,7 +25,12 @@
 
     <string name="descripción_PensAnalisisdeProcesos">El análisis de procesos consiste en llevar a
         cabo una revisión exhaustiva y llegar a una comprensión completa de un proceso con el
-        objetivo de entenderlo y encontrar soluciones..
+        objetivo de entenderlo y encontrar soluciones.
+    </string>
+
+    <string name="descripción_PensEduFinanciera">La importancia de la  educación financiera radica en el
+        desarrollo de la capacidad para administrar el dinero, dar seguimiento a tus finanzas, planear
+        para el futuro y elegir de la mejor manera los productos financieros.
     </string>
 
 

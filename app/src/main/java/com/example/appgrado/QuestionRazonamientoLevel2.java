@@ -53,31 +53,31 @@ public class QuestionRazonamientoLevel2 extends AppCompatActivity {
         QuestionRazonamientoLevel2.add(new ModelClass("QuestionrazonamientoLevel2",
                 "86","60","90","100", "90"));
 
-        QuestionRazonamientoLevel2.add(new ModelClass("Doña Irina necesita desactivar un candado con clave, se sabe que la clave se abre con el grupo que continua en la siguiente serie:  2Z3, 4Y5, 6X7. ¿Con qué clave puede abrirse el candado?",
+        QuestionRazonamientoLevel2.add(new ModelClass("QuestionrazonamientoLevel2",
                 "8S10","8Y9","8V9","8W9", "8W9"));
 
-        QuestionRazonamientoLevel2.add(new ModelClass("¿Cuántos cuartos son seis mitades?",
+        QuestionRazonamientoLevel2.add(new ModelClass("QuestionrazonamientoLevel2",
                 "8 cuartos","10 cuartos","12 cuartos","14 cuartos", "12 cuartos"));
 
-        QuestionRazonamientoLevel2.add(new ModelClass("Una madre tiene 40 años y su hijo tiene 10. ¿Cuántos años deben pasar para que la edad de la madre sea el triple que la edad de su hijo?",
+        QuestionRazonamientoLevel2.add(new ModelClass("QuestionrazonamientoLevel2",
                 "5 años","7 años","10 años","4 años", "5 años"));
 
-        QuestionRazonamientoLevel2.add(new ModelClass("Si, 5 máquinas hacen 5 artículos en 5 minutos. ¿Cuánto tiempo necesitarán 100 máquinas para hacer 100 artículos?",
+        QuestionRazonamientoLevel2.add(new ModelClass("QuestionrazonamientoLevel2",
                 "8 minutos","10 minutos","5 minutos","12 minutos", "5 minutos"));
 
-        QuestionRazonamientoLevel2.add(new ModelClass("En la siguiente secuencia: 5, 13, 25, 41, 61… el número que sigue es?",
+        QuestionRazonamientoLevel2.add(new ModelClass("QuestionrazonamientoLevel2",
                 "77","92","85","96", "85"));
 
-        QuestionRazonamientoLevel2.add(new ModelClass("Hugo, Jhosman y Liliana hicieron un total de 20 sándwiches. Jhosman hizo 3 veces más que Hugo, y Liliana hizo el doble que Jhosman. ¿Cuántos sándwiches hizo Hugo?",
+        QuestionRazonamientoLevel2.add(new ModelClass("QuestionrazonamientoLevel2",
                 "2","4","5","6", "2"));
 
-        QuestionRazonamientoLevel2.add(new ModelClass("Un restaurante está a 75% de su capacidad con 120 clientes. ¿Cuántas personas habría en el restaurante a 100% de su capacidad?",
+        QuestionRazonamientoLevel2.add(new ModelClass("QuestionrazonamientoLevel2",
                 "90","120","160","200", "160"));
 
-        QuestionRazonamientoLevel2.add(new ModelClass("Juan tiene 56 años de edad. María es 6 años de edad mayor que José. La suma de las edades de María y José es la mitad de la edad de Juan. ¿Cuántos años de edad tiene María?",
+        QuestionRazonamientoLevel2.add(new ModelClass("QuestionrazonamientoLevel2",
                 "60","18","34","17", "17"));
 
-        QuestionRazonamientoLevel2.add(new ModelClass("Si 2 pintores tardan 6 días en pintar un muro. ¿Cuánto tardarán 3 pintores en realizar el mismo trabajo?",
+        QuestionRazonamientoLevel2.add(new ModelClass("QuestionrazonamientoLevel2",
                 "3","4","5","1", "4"));
 
 //        QuestionRazonamientoLevel2.add(new ModelClass("Si 2 pintores tardan 6 días en pintar un muro. ¿Cuánto tardarán 3 pintores en realizar el mismo trabajo?", R.drawable.acercade,
