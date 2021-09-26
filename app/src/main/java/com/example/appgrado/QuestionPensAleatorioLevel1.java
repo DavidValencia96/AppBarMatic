@@ -78,7 +78,7 @@ public class QuestionPensAleatorioLevel1 extends AppCompatActivity {
         QuestionPensAleatorioLevel1.add(new ModelClass("Los balones de fútbol y de baloncesto de una escuela deportiva suman 40 en total. Se sabe que hay 2 balones de baloncesto por cada 3 balones de fútbol. ¿Cuántos hay de cada uno?",
                 "5 de baloncesto y 35 de fútbol","16 de baloncesto y 24 de fútbol","24 de baloncesto y 16 de fútbol","80 de baloncesto y 120 de fútbol", "16 de baloncesto y 24 de fútbol"));
 
-//        add line blank
+//        add line blank test app
 
 //        QuestionPensAleatorioLevel1.add(new ModelClass("Si 2 pintores tardan 6 días en pintar un muro. ¿Cuánto tardarán 3 pintores en realizar el mismo trabajo?", R.drawable.acercade,
 //                "3","4","5","1", "4"));
