@@ -43,8 +43,10 @@ public class WonActivity extends AppCompatActivity {
                     shareIntent.setType("text/plain");
                     shareIntent.putExtra(Intent.EXTRA_SUBJECT, "BarMaTic");
                     String shareMessage= "\nMi puntuación fue: "+ correcta + " respuesta(s) correcta(s) de 10, en el " + nombreNivel;
-                    shareMessage = shareMessage + "https://play.google.com/store/apps/details?id=" + BuildConfig.APPLICATION_ID +"\n\n";
                     shareIntent.putExtra(Intent.EXTRA_TEXT, shareMessage);
+                    shareMessage = shareMessage + "www.google.com" + BuildConfig.APPLICATION_ID +"\n\n";
+//                    shareMessage = shareMessage + "https://play.google.com/store/apps/details?id=" + BuildConfig.APPLICATION_ID +"\n\n";
+
                     startActivity(Intent.createChooser(shareIntent, "Compartir en"));
                 } catch(Exception e) {
                     //e.toString();
