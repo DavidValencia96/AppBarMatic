@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/fondoapp"
+    android:background="@color/blue"
     tools:context=".MenuActivity">
     
     <LinearLayout
@@ -17,38 +17,47 @@
 
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_32sdp"
-            android:layout_marginRight="@dimen/_20sdp"
-            android:layout_marginLeft="@dimen/_20sdp">
-            
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp">
+
             <TextView
-                android:gravity="center"
                 android:id="@+id/textTitulo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/_30sdp"
-                android:textColor="@color/black"
-                android:text="@string/app_name"/>
-                <TextView
-                    android:gravity="left"
-                    android:layout_below="@id/textTitulo"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="@dimen/_14sdp"
-                    android:textColor="@color/black"
-                    android:text="Institución Educativa Rural\nBarranquillita\n\nChigorodo-Antioquia"/>
+                android:layout_marginTop="@dimen/_30sdp"
+                android:layout_marginLeft="@dimen/_105sdp"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_35sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textTitulo"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginLeft="@dimen/_30sdp"
+                android:layout_marginRight="@dimen/_30sdp"
+                android:gravity="center"
+                android:text="Institución Educativa Rural Barranquillita"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_11sdp" />
+<!--            pendiente poner imagen mas grande-->
 
             <ImageView
-                android:src="@drawable/logocolegio"
-                android:layout_width="@dimen/_100sdp"
+                android:layout_width="@dimen/_110sdp"
                 android:layout_height="@dimen/_100sdp"
-                android:layout_alignParentRight="true"/>
-            
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="240dp"
+                android:src="@drawable/logocolegio" />
+
         </RelativeLayout>
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp">
 
             <GridLayout
                 android:layout_width="match_parent"
@@ -76,8 +85,8 @@
                         android:layout_height="match_parent">
 
                         <ImageView
-                            android:layout_width="@dimen/_100sdp"
-                            android:layout_height="@dimen/_100sdp"
+                            android:layout_width="@dimen/_98sdp"
+                            android:layout_height="@dimen/_98sdp"
                             android:src="@drawable/pensamientologico"/>
 
                         <TextView
