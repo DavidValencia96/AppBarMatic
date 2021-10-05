@@ -1,244 +1,238 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/blue"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@color/blue"
+tools:context=".SubmenuPensEducaFinanciera">
+
+<LinearLayout
     android:orientation="vertical"
-    tools:context=".SubmenuPensEducaFinanciera">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-    <LinearLayout
+    <RelativeLayout
+
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_10sdp">
 
-        <RelativeLayout
-
-            android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/textTitulo"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/_10sdp"
             android:layout_marginTop="@dimen/_20sdp"
-            android:layout_marginRight="@dimen/_10sdp">
-
-            <TextView
-                android:id="@+id/textTitulo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/_105sdp"
-                android:layout_marginTop="@dimen/_20sdp"
-                android:fontFamily="@font/trade_winds"
-                android:gravity="center"
-                android:text="@string/app_name"
-                android:textColor="@color/white"
-                android:textSize="@dimen/_30sdp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/textTitulo"
-                android:layout_marginLeft="@dimen/_105sdp"
-                android:fontFamily="@font/autour_one"
-                android:gravity="left"
-                android:text="Educación Financiera"
-                android:textColor="@color/white"
-                android:textSize="@dimen/_14sdp" />
-
-            <ImageView
-                android:layout_width="@dimen/_100sdp"
-                android:layout_height="@dimen/_100sdp"
-                android:layout_alignParentRight="true"
-                android:layout_marginRight="240dp"
-                android:src="@drawable/logocolegio" />
-
-        </RelativeLayout>
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/_10sdp"
-            android:layout_marginTop="@dimen/_5sdp"
-            android:layout_marginRight="@dimen/_10sdp"
-            android:layout_marginBottom="@dimen/_5sdp"
-            android:fontFamily="@font/autour_one"
-            android:text="@string/descripción_PensEduFinanciera"
-            android:textColor="@color/white"
-            android:textSize="@dimen/_10sdp" />
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_5sdp"
-            android:fontFamily="@font/autour_one"
+            android:layout_marginLeft="@dimen/_105sdp"
             android:gravity="center"
-            android:text="Nivel"
+            android:text="@string/app_name"
             android:textColor="@color/white"
-            android:textSize="@dimen/_15sdp" />
+            android:textSize="@dimen/_30sdp" />
 
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="350dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_105sdp"
+            android:layout_below="@id/textTitulo"
+            android:gravity="left"
+            android:text="Educación Financiera"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sdp" />
 
-            <GridLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:alignmentMode="alignMargins"
-                android:columnCount="1"
-                android:columnOrderPreserved="false"
-                android:rowCount="4">
+        <ImageView
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="240dp"
+            android:src="@drawable/logocolegio" />
 
+    </RelativeLayout>
 
-                <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="@dimen/_100sdp"
-                    android:layout_rowWeight="1"
-                    android:layout_columnWeight="1"
-                    android:layout_margin="@dimen/_12sdp"
-                    app:cardCornerRadius="@dimen/_5sdp"
-                    app:cardElevation="@dimen/_5sdp">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:text="@string/descripción_PensEduFinanciera"
+        android:textColor="@color/white" />
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/testimg2"
-                        android:gravity="center"
-                        android:onClick="irQuestionPensEducaFinancieraLevel1"
-                        android:orientation="vertical"
-                        android:padding="@dimen/_16sdp">
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:textSize="@dimen/_15sdp"
+        android:text="Nivel" />
 
-                        <ImageView
-                            android:layout_width="@dimen/_40sdp"
-                            android:layout_height="@dimen/_40sdp"
-                            android:layout_marginLeft="@dimen/_100sdp"
-                            android:layout_marginTop="@dimen/_20sdp"
-                            android:src="@drawable/uno" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="360dp">
 
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <!--            <androidx.cardview.widget.CardView-->
-                <!--                android:layout_width="wrap_content"-->
-                <!--                android:layout_height="@dimen/_100sdp"-->
-                <!--                android:layout_columnWeight="1"-->
-                <!--                android:layout_rowWeight="1"-->
-                <!--                app:cardElevation="@dimen/_5sdp"-->
-                <!--                app:cardCornerRadius="@dimen/_5sdp"-->
-                <!--                android:layout_margin="@dimen/_12sdp">-->
-
-                <!--                <LinearLayout-->
-                <!--                    android:onClick="irQuestionPensEducaFinancieraLevel2"-->
-                <!--                    android:gravity="center"-->
-                <!--                    android:padding="@dimen/_16sdp"-->
-                <!--                    android:background="@drawable/fondoestudiantes"-->
-                <!--                    android:orientation="vertical"-->
-                <!--                    android:layout_width="match_parent"-->
-                <!--                    android:layout_height="match_parent">-->
-
-                <!--                    <ImageView-->
-                <!--                        android:layout_width="@dimen/_45sdp"-->
-                <!--                        android:layout_height="@dimen/_45sdp"-->
-                <!--                        android:src="@drawable/dos"/>-->
-
-                <!--                    <TextView-->
-                <!--                        android:layout_marginTop="@dimen/_2sdp"-->
-                <!--                        android:textSize="@dimen/_18sdp"-->
-                <!--                        android:textAlignment="center"-->
-                <!--                        android:text="Nivel"-->
-                <!--                        android:layout_width="wrap_content"-->
-                <!--                        android:layout_height="wrap_content"/>-->
-
-                <!--                </LinearLayout>-->
-
-                <!--            </androidx.cardview.widget.CardView>-->
-
-                <!--            <androidx.cardview.widget.CardView-->
-                <!--                android:layout_width="wrap_content"-->
-                <!--                android:layout_height="@dimen/_100sdp"-->
-                <!--                android:layout_columnWeight="1"-->
-                <!--                android:layout_rowWeight="1"-->
-                <!--                app:cardElevation="@dimen/_5sdp"-->
-                <!--                app:cardCornerRadius="@dimen/_5sdp"-->
-                <!--                android:layout_margin="@dimen/_12sdp">-->
-
-                <!--                <LinearLayout-->
-                <!--                    android:gravity="center"-->
-                <!--                    android:padding="@dimen/_10sdp"-->
-                <!--                    android:background="@drawable/img3"-->
-                <!--                    android:orientation="vertical"-->
-                <!--                    android:layout_width="match_parent"-->
-                <!--                    android:layout_height="match_parent">-->
-
-                <!--                    <ImageView-->
-                <!--                        android:layout_width="@dimen/_45sdp"-->
-                <!--                        android:layout_height="@dimen/_45sdp"-->
-                <!--                        android:src="@drawable/tres"/>-->
-
-                <!--                    <TextView-->
-                <!--                        android:layout_marginTop="@dimen/_2sdp"-->
-                <!--                        android:textSize="@dimen/_18sdp"-->
-                <!--                        android:textAlignment="center"-->
-                <!--                        android:text="Nivel"-->
-                <!--                        android:layout_width="wrap_content"-->
-                <!--                        android:layout_height="wrap_content"/>-->
-
-                <!--                </LinearLayout>-->
-
-                <!--            </androidx.cardview.widget.CardView>-->
-
-                <!--            <androidx.cardview.widget.CardView-->
-                <!--                android:layout_width="wrap_content"-->
-                <!--                android:layout_height="@dimen/_100sdp"-->
-                <!--                android:layout_columnWeight="1"-->
-                <!--                android:layout_rowWeight="1"-->
-                <!--                app:cardElevation="@dimen/_5sdp"-->
-                <!--                app:cardCornerRadius="@dimen/_5sdp"-->
-                <!--                android:layout_margin="@dimen/_12sdp">-->
-
-                <!--                <LinearLayout-->
-                <!--                    android:gravity="center"-->
-                <!--                    android:padding="@dimen/_16sdp"-->
-                <!--                    android:orientation="vertical"-->
-                <!--                    android:layout_width="match_parent"-->
-                <!--                    android:layout_height="match_parent">-->
-
-                <!--                    <ImageView-->
-                <!--                        android:layout_width="@dimen/_45sdp"-->
-                <!--                        android:layout_height="@dimen/_45sdp"-->
-                <!--                        android:src="@drawable/cuatro"/>-->
-
-                <!--                    <TextView-->
-                <!--                        android:layout_marginTop="@dimen/_2sdp"-->
-                <!--                        android:textSize="@dimen/_18sdp"-->
-                <!--                        android:textAlignment="center"-->
-                <!--                        android:text="Nivel"-->
-                <!--                        android:layout_width="wrap_content"-->
-                <!--                        android:layout_height="wrap_content"/>-->
-
-                <!--                </LinearLayout>-->
-
-                <!--            </androidx.cardview.widget.CardView>-->
-
-
-            </GridLayout>
-
-        </ScrollView>
-
-        <Button
-            android:id="@+id/inicio"
+        <GridLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_40sdp"
-            android:layout_marginTop="@dimen/_5sdp"
-            android:layout_marginEnd="@dimen/_40sdp"
-            android:background="@color/green"
-            android:fontFamily="@font/autour_one"
-            android:onClick="irinicio"
-            android:text="Regresar a categorias"
-            android:textColor="@color/white" />
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:rowCount="4">
 
-    </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="@dimen/_12sdp"
+                app:cardCornerRadius="@dimen/_5sdp"
+                app:cardElevation="@dimen/_5sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/testimg2"
+                    android:gravity="center"
+                    android:onClick="irQuestionPensEducaFinancieraLevel1"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_16sdp">
+
+                    <ImageView
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_marginLeft="@dimen/_100sdp"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:src="@drawable/uno" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!--            <androidx.cardview.widget.CardView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="@dimen/_100sdp"-->
+            <!--                android:layout_columnWeight="1"-->
+            <!--                android:layout_rowWeight="1"-->
+            <!--                app:cardElevation="@dimen/_5sdp"-->
+            <!--                app:cardCornerRadius="@dimen/_5sdp"-->
+            <!--                android:layout_margin="@dimen/_12sdp">-->
+
+            <!--                <LinearLayout-->
+            <!--                    android:onClick="irQuestionPensEducaFinancieraLevel2"-->
+            <!--                    android:gravity="center"-->
+            <!--                    android:padding="@dimen/_16sdp"-->
+            <!--                    android:background="@drawable/fondoestudiantes"-->
+            <!--                    android:orientation="vertical"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="match_parent">-->
+
+            <!--                    <ImageView-->
+            <!--                        android:layout_width="@dimen/_45sdp"-->
+            <!--                        android:layout_height="@dimen/_45sdp"-->
+            <!--                        android:src="@drawable/dos"/>-->
+
+            <!--                    <TextView-->
+            <!--                        android:layout_marginTop="@dimen/_2sdp"-->
+            <!--                        android:textSize="@dimen/_18sdp"-->
+            <!--                        android:textAlignment="center"-->
+            <!--                        android:text="Nivel"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"/>-->
+
+            <!--                </LinearLayout>-->
+
+            <!--            </androidx.cardview.widget.CardView>-->
+
+            <!--            <androidx.cardview.widget.CardView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="@dimen/_100sdp"-->
+            <!--                android:layout_columnWeight="1"-->
+            <!--                android:layout_rowWeight="1"-->
+            <!--                app:cardElevation="@dimen/_5sdp"-->
+            <!--                app:cardCornerRadius="@dimen/_5sdp"-->
+            <!--                android:layout_margin="@dimen/_12sdp">-->
+
+            <!--                <LinearLayout-->
+            <!--                    android:gravity="center"-->
+            <!--                    android:padding="@dimen/_10sdp"-->
+            <!--                    android:background="@drawable/img3"-->
+            <!--                    android:orientation="vertical"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="match_parent">-->
+
+            <!--                    <ImageView-->
+            <!--                        android:layout_width="@dimen/_45sdp"-->
+            <!--                        android:layout_height="@dimen/_45sdp"-->
+            <!--                        android:src="@drawable/tres"/>-->
+
+            <!--                    <TextView-->
+            <!--                        android:layout_marginTop="@dimen/_2sdp"-->
+            <!--                        android:textSize="@dimen/_18sdp"-->
+            <!--                        android:textAlignment="center"-->
+            <!--                        android:text="Nivel"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"/>-->
+
+            <!--                </LinearLayout>-->
+
+            <!--            </androidx.cardview.widget.CardView>-->
+
+            <!--            <androidx.cardview.widget.CardView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="@dimen/_100sdp"-->
+            <!--                android:layout_columnWeight="1"-->
+            <!--                android:layout_rowWeight="1"-->
+            <!--                app:cardElevation="@dimen/_5sdp"-->
+            <!--                app:cardCornerRadius="@dimen/_5sdp"-->
+            <!--                android:layout_margin="@dimen/_12sdp">-->
+
+            <!--                <LinearLayout-->
+            <!--                    android:gravity="center"-->
+            <!--                    android:padding="@dimen/_16sdp"-->
+            <!--                    android:orientation="vertical"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="match_parent">-->
+
+            <!--                    <ImageView-->
+            <!--                        android:layout_width="@dimen/_45sdp"-->
+            <!--                        android:layout_height="@dimen/_45sdp"-->
+            <!--                        android:src="@drawable/cuatro"/>-->
+
+            <!--                    <TextView-->
+            <!--                        android:layout_marginTop="@dimen/_2sdp"-->
+            <!--                        android:textSize="@dimen/_18sdp"-->
+            <!--                        android:textAlignment="center"-->
+            <!--                        android:text="Nivel"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"/>-->
+
+            <!--                </LinearLayout>-->
+
+            <!--            </androidx.cardview.widget.CardView>-->
+
+
+        </GridLayout>
+
+    </ScrollView>
+
+    <Button
+        android:onClick="irinicio"
+        android:id="@+id/inicio"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:text="Regresar a categorias" />
+
+</LinearLayout>
 
 </LinearLayout>

@@ -33,8 +33,7 @@ tools:context=".QuestionPensNumyVariLevel1">
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:layout_marginRight="@dimen/_10sdp"
-        android:text="@string/app_name"
-        android:fontFamily="@font/trade_winds"
+        android:text="Regresar al menú"
         android:textColor="@color/white"
         android:textSize="@dimen/_18sdp" />
 
@@ -79,7 +78,6 @@ tools:context=".QuestionPensNumyVariLevel1">
             android:layout_gravity="center"
             android:gravity="center"
             android:text="@string/app_name"
-            android:fontFamily="@font/autour_one"
             android:textColor="@color/black"/>
 
 
@@ -105,7 +103,6 @@ tools:context=".QuestionPensNumyVariLevel1">
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:text="Response A"
-            android:fontFamily="@font/autour_one"
             android:layout_gravity="center"
             />
 
@@ -115,7 +112,7 @@ tools:context=".QuestionPensNumyVariLevel1">
     <androidx.cardview.widget.CardView
         android:onClick="OptionClickB"
         android:id="@+id/cardB"
-        app:cardCornerRadius="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_5sdp"
         android:layout_marginStart="@dimen/_10sdp"
         android:layout_marginRight="@dimen/_10sdp"
         android:layout_marginTop="@dimen/_20sdp"
@@ -131,7 +128,6 @@ tools:context=".QuestionPensNumyVariLevel1">
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:text="Response B"
-            android:fontFamily="@font/autour_one"
             android:layout_gravity="center"
             />
 
@@ -141,7 +137,7 @@ tools:context=".QuestionPensNumyVariLevel1">
     <androidx.cardview.widget.CardView
         android:onClick="OptionClickC"
         android:id="@+id/cardC"
-        app:cardCornerRadius="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_5sdp"
         android:layout_marginStart="@dimen/_10sdp"
         android:layout_marginRight="@dimen/_10sdp"
         android:layout_marginTop="@dimen/_20sdp"
@@ -157,7 +153,6 @@ tools:context=".QuestionPensNumyVariLevel1">
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:text="Response C"
-            android:fontFamily="@font/autour_one"
             android:layout_gravity="center"
             />
 
@@ -167,7 +162,7 @@ tools:context=".QuestionPensNumyVariLevel1">
     <androidx.cardview.widget.CardView
         android:onClick="OptionClickD"
         android:id="@+id/cardD"
-        app:cardCornerRadius="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_5sdp"
         android:layout_marginStart="@dimen/_10sdp"
         android:layout_marginRight="@dimen/_10sdp"
         android:layout_marginTop="@dimen/_20sdp"
@@ -184,7 +179,6 @@ tools:context=".QuestionPensNumyVariLevel1">
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:text="Response D"
-            android:fontFamily="@font/autour_one"
             android:layout_gravity="center"
             />
 
@@ -210,7 +204,6 @@ tools:context=".QuestionPensNumyVariLevel1">
             android:text="Siguiente"
             android:textColor="@color/white"
             android:textSize="@dimen/_20sdp"
-            android:fontFamily="@font/autour_one"
             android:layout_gravity="center"
             android:textAllCaps="true"
             />
