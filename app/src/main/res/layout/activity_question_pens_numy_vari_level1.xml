@@ -47,8 +47,8 @@ tools:context=".QuestionPensNumyVariLevel1">
     android:indeterminate="false"
     android:maxHeight="12dp"
     android:minHeight="12dp"
-    android:progress="10"
-    android:max="20"
+    android:progress="300"
+    android:max="600"
     app:backgroundColor="@color/colorPrimary"
     app:progressColor="#FFC107"/>
 

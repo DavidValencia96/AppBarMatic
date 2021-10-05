@@ -23,7 +23,7 @@ public class QuestionPensNumyVariLevel1 extends AppCompatActivity {
     public static ArrayList<ModelClass> QuestionPensNumyVariLevel1;
 
     CountDownTimer countDownTimer;
-    int timerValue = 20; //contador de tiempo 5 min == 50000milsg
+    int timerValue = 600; //contador de tiempo 5 min == 50000milsg
     RoundedHorizontalProgressBar progressBar;
     List<ModelClass> allQuestionsList; //importamos la lista de preguntas en caso de que este en otra vista
     ModelClass modelClass;
@@ -96,7 +96,7 @@ public class QuestionPensNumyVariLevel1 extends AppCompatActivity {
 
         nextBtn.setClickable(false);
 
-        countDownTimer = new CountDownTimer(20000, 1000){
+        countDownTimer = new CountDownTimer(600000, 1000){
             @Override
             public void onTick(long millisUntilFinished) {
                 //Metodo para reducir el contador y mostrar barra
@@ -133,7 +133,7 @@ public class QuestionPensNumyVariLevel1 extends AppCompatActivity {
         optionB.setText(modelClass.getResponseB());
         optionC.setText(modelClass.getResponseC());
         optionD.setText(modelClass.getResponseD());
-        timerValue = 20;
+        timerValue = 600;
         countDownTimer.cancel();
         countDownTimer.start();
     }
