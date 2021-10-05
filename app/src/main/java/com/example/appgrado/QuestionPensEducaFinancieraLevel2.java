@@ -212,6 +212,10 @@ public class QuestionPensEducaFinancieraLevel2 extends AppCompatActivity {
         ResponseB.setClickable(false);
         ResponseC.setClickable(false);
         ResponseD.setClickable(false);
+        ResponseA.setBackgroundColor(getResources().getColor(R.color.LightGrey));
+        ResponseB.setBackgroundColor(getResources().getColor(R.color.LightGrey));
+        ResponseC.setBackgroundColor(getResources().getColor(R.color.LightGrey));
+        ResponseD.setBackgroundColor(getResources().getColor(R.color.LightGrey));
     }
 
     public void resetColor(){
