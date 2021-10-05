@@ -29,6 +29,7 @@
                 android:layout_marginLeft="@dimen/_105sdp"
                 android:gravity="center"
                 android:text="@string/app_name"
+                android:fontFamily="@font/trade_winds"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_35sdp" />
 
@@ -37,12 +38,13 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/textTitulo"
                 android:layout_marginTop="@dimen/_15sdp"
-                android:layout_marginLeft="@dimen/_30sdp"
-                android:layout_marginRight="@dimen/_30sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
                 android:gravity="center"
                 android:text="Institución Educativa Rural Barranquillita"
+                android:fontFamily="@font/autour_one"
                 android:textColor="@color/white"
-                android:textSize="@dimen/_11sdp" />
+                android:textSize="@dimen/_10sdp" />
 <!--            pendiente poner imagen mas grande-->
 
             <ImageView
@@ -94,8 +96,9 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="@dimen/_2sdp"
                             android:text="Razonamiento\nLógico"
+                            android:fontFamily="@font/autour_one"
                             android:textAlignment="center"
-                            android:textSize="@dimen/_13sdp" />
+                            android:textSize="@dimen/_10sdp" />
 
                     </LinearLayout>
 
@@ -125,9 +128,10 @@
 
                         <TextView
                             android:layout_marginTop="@dimen/_2sdp"
-                            android:textSize="@dimen/_13sdp"
+                            android:textSize="@dimen/_11sdp"
                             android:textAlignment="center"
                             android:text="Pensamiento\nNumérico y Variacional"
+                            android:fontFamily="@font/autour_one"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"/>
 
@@ -159,9 +163,10 @@
 
                         <TextView
                             android:layout_marginTop="@dimen/_2sdp"
-                            android:textSize="@dimen/_13sdp"
+                            android:textSize="@dimen/_11sdp"
                             android:textAlignment="center"
                             android:text="Pensamiento\nMétrico y Geométrico"
+                            android:fontFamily="@font/autour_one"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"/>
 
@@ -193,9 +198,10 @@
 
                         <TextView
                             android:layout_marginTop="@dimen/_2sdp"
-                            android:textSize="@dimen/_15sdp"
+                            android:textSize="@dimen/_11sdp"
                             android:textAlignment="center"
                             android:text="Pensamiento\nAleatorio"
+                            android:fontFamily="@font/autour_one"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"/>
 
@@ -261,9 +267,10 @@
 
                         <TextView
                             android:layout_marginTop="@dimen/_2sdp"
-                            android:textSize="@dimen/_15sdp"
+                            android:textSize="@dimen/_11sdp"
                             android:textAlignment="center"
                             android:text="Educación Financiera"
+                            android:fontFamily="@font/autour_one"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"/>
 
@@ -294,9 +301,10 @@
 
                         <TextView
                             android:layout_marginTop="@dimen/_2sdp"
-                            android:textSize="@dimen/_18sdp"
+                            android:textSize="@dimen/_11sdp"
                             android:textAlignment="center"
-                            android:text="ajustes"
+                            android:text="Acerca de"
+                            android:fontFamily="@font/autour_one"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"/>
 
