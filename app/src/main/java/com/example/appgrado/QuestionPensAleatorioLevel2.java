@@ -54,8 +54,8 @@ public class QuestionPensAleatorioLevel2 extends AppCompatActivity {
         QuestionPensAleatorioLevel2.add(new ModelClass("Las notas de otro estudiante en los dos primeros exámenes fueron 2,0 y 3,0 respectivamente. El estudiante aprobó el curso ¿Cuál fue la nota mínima que este estudiante pudo obtener en el tercer examen?",
                 "2,0","3,0","4,0","5,0", "4,0"));
 
-        QuestionPensAleatorioLevel2.add(new ModelClass("La siguiente gráfica muestra el número de animales de cada especie que hay en un parque ecológico. ¿Cuál de las siguientes afirmaciones sobre los animales que hay en el parque ecológico no es correcta?",
-                "Hay menos aves que reptiles","Hay menos mamíferos que anfibios","Hay más reptiles que anfibios","Hay más mamíferos que aves", "Hay más reptiles que anfibios"));
+        QuestionPensAleatorioLevel2.add(new ModelClass("En la entrada a un parque de diversiones a Juan le cobraron $2.500 y a Adriana le cobraron $3.150. ¿En qué porcentaje aumentó el precio de la entrada de Adriana respecto al precio de la entrada de Juan?",
+                "20%","26%","19%","30%", "26%"));
 
         QuestionPensAleatorioLevel2.add(new ModelClass("Un colegio necesita enviar 5 estudiantes como representantes a un foro sobre la contaminación del medio ambiente. Se decidió que 2 estudiantes sean de grado décimo y 3 de grado undécimo. En décimo hay 5 estudiantes preparados para el foro y en undécimo hay 4. ¿Cuántos grupos diferentes pueden formarse para enviar al foro?",
                 "9","14","20","40", "40"));
