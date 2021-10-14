@@ -228,7 +228,7 @@
             android:layout_marginEnd="@dimen/_40sdp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/green"
+            android:background="@drawable/bordes_redondos_green"
             android:textColor="@color/white"
             android:fontFamily="@font/autour_one"
             android:text="Regresar a categorias" />

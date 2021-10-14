@@ -73,58 +73,82 @@
 
 
     </RelativeLayout>
-    
+
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_100sdp"
+        android:layout_height="@dimen/_130sdp"
+        android:layout_below="@id/r12"
+        android:layout_alignParentBottom="true"
         android:layout_marginTop="@dimen/_10sdp"
-        android:layout_below="@id/r12">
-        
+        android:layout_marginBottom="31dp">
+
         <LinearLayout
-            android:id="@+id/btn_Share"
+            android:id="@+id/Btn_Shared_WP"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_40sdp"
+            android:layout_centerHorizontal="true"
             android:layout_marginStart="@dimen/_40sdp"
             android:layout_marginEnd="@dimen/_40sdp"
-            android:gravity="center"
-            android:background="@color/blue"
-            android:layout_centerInParent="true">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Compartir mi puntuación"
-                android:fontFamily="@font/autour_one"
-                android:textColor="@color/white"
-                android:textSize="@dimen/_14sdp"
-                android:layout_gravity="center"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/btn_Shared"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="false"
-            android:layout_marginStart="@dimen/_90sdp"
-            android:layout_marginTop="@dimen/_75sdp"
-            android:layout_marginEnd="@dimen/_90sdp"
-            android:background="@color/blue"
-            android:gravity="center"
-            android:onClick="irSubmenuRazonamiento">
+            android:background="@drawable/bordes_redondos_blue"
+            android:gravity="center">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Regresar al menú"
                 android:fontFamily="@font/autour_one"
+                android:text="1. Ingresa a BarMatic en WhatsApp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_10sdp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_Share"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_below="@+id/Btn_Shared_WP"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:background="@drawable/bordes_redondos_blue"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/autour_one"
+                android:text="2. Compartir mi puntuación"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_10sdp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_inicio"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_below="@+id/btn_Share"
+            android:layout_marginStart="@dimen/_90sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_90sdp"
+            android:background="@drawable/bordes_redondos_green"
+            android:gravity="center"
+            android:onClick="irMenu">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/autour_one"
+                android:text="Regresar al menú"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_10sdp" />
         </LinearLayout>
 
     </RelativeLayout>
 
-<!--    <RelativeLayout-->
+    <!--    <RelativeLayout-->
 <!--        android:gravity="center"-->
 <!--        android:layout_width="@dimen/_100sdp"-->
 <!--        android:layout_height="@dimen/_100sdp"-->

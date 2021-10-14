@@ -202,7 +202,7 @@ tools:context=".QuestionPensProcesosLevel1">
         android:layout_marginLeft="@dimen/_35sdp"
         android:layout_marginEnd="@dimen/_35sdp"
         android:gravity="center"
-        android:background="@color/green">
+        android:background="@drawable/bordes_redondos_green">
 
         <TextView
             android:layout_width="wrap_content"
