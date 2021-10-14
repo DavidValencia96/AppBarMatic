@@ -8,15 +8,17 @@ BarMaTic es una aplicación móvil desarrollada en el IDE Android Studio utiliza
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+```
+gh repo clone DavidValencia96/AppGrado
+```
 
 
-### Pre-requisitos 📋
+### Pre-requisitos para instalar la aplicación en un dispositivo movil📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+La aplicación esta desarrollada para funcionar en dispositivos con sistema operativo _Android KiKat 4.4_
 
 ```
-Da un ejemplo
+gh repo clone DavidValencia96/AppGrado
 ```
 
 ### Instalación 🔧
@@ -63,15 +65,9 @@ _Agrega notas adicionales sobre como hacer deploy_
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+* [Android Studio](https://developer.android.com/studio?hl=es-419&gclid=Cj0KCQjwqp-LBhDQARIsAO0a6aJVh8299x1EFRxsOCL2qniRnj9742L54tFv71vlrlBrN3q6z24zopAaAt3tEALw_wcB&gclsrc=aw.ds) - IDE usado para el desarrollo
 
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
 
 ## Wiki 📖
 
