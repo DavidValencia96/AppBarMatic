@@ -233,7 +233,7 @@
             android:layout_marginStart="@dimen/_40sdp"
             android:layout_marginTop="@dimen/_5sdp"
             android:layout_marginEnd="@dimen/_40sdp"
-            android:background="@color/green"
+            android:background="@drawable/bordes_redondos_green"
             android:fontFamily="@font/autour_one"
             android:onClick="irinicio"
             android:text="Regresar a categorias"

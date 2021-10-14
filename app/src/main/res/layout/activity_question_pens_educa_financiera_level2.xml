@@ -201,7 +201,7 @@
             android:layout_marginTop="@dimen/_50sdp"
             android:layout_marginEnd="@dimen/_35sdp"
             android:layout_marginRight="@dimen/_35sdp"
-            android:background="@color/green"
+            android:background="@drawable/bordes_redondos_green"
             android:gravity="center">
 
             <TextView
