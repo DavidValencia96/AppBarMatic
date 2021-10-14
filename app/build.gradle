@@ -16,7 +16,8 @@ android {
         minSdkVersion 19
         targetSdkVersion 30
         versionCode 1
-        versionName "1.0.2"
+//        versionName "1.0.2"
+        versionName "1.1.0" //se agregar google analitycs para moniterar usuarios en tiempo real
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -35,15 +36,15 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'com.google.firebase:firebase-database:16.0.4'
+    implementation 'com.google.firebase:firebase-core:16.0.4'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     implementation 'com.intuit.sdp:sdp-android:1.0.6'
     implementation 'com.sasank.roundedhorizontalprogress:roundedhorizontalprogress:1.0.1'
     implementation 'com.mikhaellopez:circularprogressbar:3.0.3'
-    implementation platform('com.google.firebase:firebase-bom:28.3.1')
     implementation 'com.google.firebase:firebase-analytics'
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'androidx.gridlayout:gridlayout:1.0.0-rc01'
-
+    implementation platform('com.google.firebase:firebase-bom:28.4.1')
 }
