@@ -53,18 +53,7 @@ Mira los [tags en este repositorio](https://github.com/DavidValencia96/AppGrado/
 ## Autores ✒️
 
 * **Juan Valencia** - *Desarrollador* - [DavidValencia96](https://github.com/DavidValencia96)
-* **Suyis** - *Tutora proyecto* - [suyis](#perfil
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
-
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
-
+* **Suyis** - *Tutora proyecto* - [suyis](#perfil)
 
 
 ---
