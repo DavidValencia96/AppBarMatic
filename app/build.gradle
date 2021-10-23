@@ -17,7 +17,9 @@ android {
         targetSdkVersion 30
         versionCode 1
 //        versionName "1.0.2"
-        versionName "1.1.0" //se agregar google analitycs para moniterar usuarios en tiempo real
+//        versionName "1.1.0" //se agregar google analitycs para moniterar usuarios en tiempo real
+        versionName "1.1.1" //se agregar vista acerca de.
+
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

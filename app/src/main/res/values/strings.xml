@@ -33,5 +33,48 @@
         para el futuro y elegir de la mejor manera los productos financieros.
     </string>
 
+<!--acerca de -->
+
+    <string name="acercade">BarMatic es una aplicación creada para la Institución Educativa Rural Barranquillita
+        cuyo objetivo es fortalecer el pensamiento lógico de los estudiantes, esto a partir de una serie de
+        preguntas y respuestas que están basadas en una serie de metodologías (categorías) que ayudan a
+        identificar las falencias que tenemos con relación al pensamiento lógico y poder tener la oportunidad de mejorar.
+
+    </string>
+
+    <string name="categorias">Categorías:\nEn las categorías disponibles se pueden encontrar 1 o 2
+        niveles los cuales cada uno contiene 10 preguntas.\n\n
+
+        Los módulos o categorías son los siguientes:\n\n
+
+        •Razonamiento lógico. \n
+        •Pensamiento numérico y variacional. \n
+        •Pensamiento métrico y geométrico. \n
+        •Pensamiento aleatorio. \n
+        •Educación financiera.
+
+    </string>
+
+    <string name="preguntas">Preguntas y respuestas:\nCuando se inicia el Quiz de alguna categoría, a partir de
+        ese momento cuenta con "10 minutos" para resolver cada pregunta y una vez finalizado este
+        tiempo la App le mostrara un mensaje de “intentar de nuevo”, una vez presionado en este botón
+        se reiniciará el Quiz y también el progreso que se tenía anteriormente.
+
+    </string>
+
+    <string name="compartir">Compartir resultado:\nBarMatic le permitirá compartir el resultado obtenido al finalizar
+        el Quiz en las diferentes opciones disponibles por el dispositivo móvil
+        (WhatsApp, Facebook, E-mail, Mensaje de texto, entro otros).
+
+    </string>
+
+    <string name="soporte"><b>Soporte:</b>\nSi presenta algún error o requiere algún tipo de soporte puede
+        informar a los siguientes correos “juan.valenciaor@amigo.edu.co / suyis.lozanoga@amigo.edu.co”
+        o vía grupo BarMatic en WhatsApp y si le es posible anexar la siguiente información:\n\n
+        •¿En cuál visual le presento error?\n
+        •¿Cuántas veces se le presento el error?\n
+        •Una o más capturas de pantalla.\n
+
+    </string>
 
 </resources>

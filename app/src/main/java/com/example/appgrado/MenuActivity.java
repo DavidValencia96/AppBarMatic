@@ -45,10 +45,14 @@ public class MenuActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void irSubmenuAcercaDe(View view){
+        Intent i = new Intent(MenuActivity.this, SubmenuAcercaDe.class);
+        startActivity(i);
+    }
+
     @Override
     public void onBackPressed() {
         return; //inhabilitar el boton de retroceso
     }
-
 
 }
