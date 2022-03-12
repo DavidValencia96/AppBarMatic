@@ -1,5 +1,6 @@
 package com.example.appgrado;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
@@ -12,18 +13,24 @@ import android.view.WindowManager;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.sasank.roundedhorizontalprogress.RoundedHorizontalProgressBar;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class QuestionPensProcesosLevel1 extends AppCompatActivity {
+import static com.example.appgrado.MenuActivityOnline.listFirebase;
 
-    public static ArrayList<ModelClass> QuestionPensProcesosLevel1;
+
+public class QuizTestFirebase extends AppCompatActivity {
 
     CountDownTimer countDownTimer;
-    int timerValue = 600; //contador de tiempo 5 min == 600000 milsg
+    int timerValue = 600; //contador de tiempo 10 min == 600000mils
     RoundedHorizontalProgressBar progressBar;
     List<ModelClass> allQuestionsList; //importamos la lista de preguntas en caso de que este en otra vista
     ModelClass modelClass;
@@ -33,61 +40,19 @@ public class QuestionPensProcesosLevel1 extends AppCompatActivity {
     CardView ResponseA, ResponseB, ResponseC, ResponseD;
     int correctCount = 0;
     int incorrectCount = 0;
-    String nombreNivel = "nivel 1 de Análisis de Procesos. ";
+    String nombreNivel = "Esto es una prueba con conexion a base de datos cloud FIREBASE GOOGLE -- jugador - ONLINE ";
     LinearLayout nextBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_question_pens_procesos_level1);
-
-        QuestionPensProcesosLevel1 = new ArrayList<>();
-
-//        QuestionPensProcesosLevel1.add(new ModelClass("test8", "a","b","c","d", "ANS")); ejemplo de orden de preguntas y respuestas
-
-//        QuestionPensProcesosLevel1.add(new ModelClass("¿Por cuántos triángulos equiláteros está compuesta la siguiente figura?",
-//                "9","10","12","13", "13"));
-
-        QuestionPensProcesosLevel1.add(new ModelClass("QuestionPensProcesosLevel1",
-                "86","60","90","100", "90"));
-
-        QuestionPensProcesosLevel1.add(new ModelClass("",
-                "8S10","8Y9","8V9","8W9", "8W9"));
-
-        QuestionPensProcesosLevel1.add(new ModelClass("",
-                "8 cuartos","10 cuartos","12 cuartos","14 cuartos", "12 cuartos"));
-
-        QuestionPensProcesosLevel1.add(new ModelClass("",
-                "5 años","7 años","10 años","4 años", "5 años"));
-
-        QuestionPensProcesosLevel1.add(new ModelClass("",
-                "8 minutos","10 minutos","5 minutos","12 minutos", "5 minutos"));
-
-        QuestionPensProcesosLevel1.add(new ModelClass("",
-                "77","92","85","96", "85"));
-
-        QuestionPensProcesosLevel1.add(new ModelClass("",
-                "2","4","5","6", "2"));
-
-        QuestionPensProcesosLevel1.add(new ModelClass("",
-                "90","120","160","200", "160"));
-
-        QuestionPensProcesosLevel1.add(new ModelClass("",
-                "60","18","34","17", "17"));
-
-        QuestionPensProcesosLevel1.add(new ModelClass("",
-                "3","4","5","1", "4"));
-
-//        QuestionPensProcesosLevel1.add(new ModelClass("Si 2 pintores tardan 6 días en pintar un muro. ¿Cuánto tardarán 3 pintores en realizar el mismo trabajo?", R.drawable.acercade,
-//                "3","4","5","1", "4"));
-
-
+        setContentView(R.layout.activity_quiz_test_firebase);
 
         Hooks();
 
-        allQuestionsList = QuestionPensProcesosLevel1;
+        allQuestionsList = listFirebase;
         Collections.shuffle(allQuestionsList);
-        modelClass = QuestionPensProcesosLevel1.get(index);
+        modelClass = listFirebase.get(index);
 
         ResponseA.setBackgroundColor(getResources().getColor(R.color.white));
         ResponseB.setBackgroundColor(getResources().getColor(R.color.white));
@@ -107,8 +72,8 @@ public class QuestionPensProcesosLevel1 extends AppCompatActivity {
             @Override
             public void onFinish() {
                 //mostrar dialogo
-//                Dialog dialog = new Dialog(QuestionPensProcesosLevel1.this, R.style.Dialogo);
-                Dialog dialog = new Dialog(QuestionPensProcesosLevel1.this);
+//                Dialog dialog = new Dialog(QuestionRazonamientoLevel2.this, R.style.Dialogo);
+                Dialog dialog = new Dialog(QuizTestFirebase.this);
                 dialog.getWindow().addFlags(WindowManager.LayoutParams.FLAG_BLUR_BEHIND);
                 dialog.setContentView(R.layout.time_out_dialogo);
 
@@ -116,7 +81,7 @@ public class QuestionPensProcesosLevel1 extends AppCompatActivity {
                 dialog.findViewById(R.id.btn_intentarNew).setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent(QuestionPensProcesosLevel1.this, SubmenuPensProcesos.class);
+                        Intent intent = new Intent(QuizTestFirebase.this, MenuActivityOnline.class);
                         startActivity(intent);
                     }
                 });
@@ -125,6 +90,7 @@ public class QuestionPensProcesosLevel1 extends AppCompatActivity {
         }.start();
         setAllData();
     }
+
 
     private void setAllData() {
         preguntas.setText(modelClass.getInitialQuestion());
@@ -164,7 +130,7 @@ public class QuestionPensProcesosLevel1 extends AppCompatActivity {
             public void onClick(View v) {
                 correctCount++;
                 index++;
-                modelClass = QuestionPensProcesosLevel1.get(index);
+                modelClass = listFirebase.get(index);
                 resetColor();
                 setAllData();
                 enableButton();
@@ -181,7 +147,7 @@ public class QuestionPensProcesosLevel1 extends AppCompatActivity {
                 incorrectCount++;
                 if(index < allQuestionsList.size() - 1){
                     index++;
-                    modelClass = QuestionPensProcesosLevel1.get(index);
+                    modelClass = listFirebase.get(index);
                     resetColor();
                     setAllData();
                     enableButton();
@@ -193,7 +159,7 @@ public class QuestionPensProcesosLevel1 extends AppCompatActivity {
     }
 
     private void GameWon() {
-        Intent intent = new Intent(QuestionPensProcesosLevel1.this, WonActivity.class);
+        Intent intent = new Intent(QuizTestFirebase.this, WonActivityOnline.class);
         intent.putExtra("correcta", correctCount);
         intent.putExtra("incorrecta", incorrectCount);
         intent.putExtra("nombre_nivel", nombreNivel);
@@ -230,7 +196,7 @@ public class QuestionPensProcesosLevel1 extends AppCompatActivity {
         nextBtn.setClickable(true);
         if(modelClass.getResponseA().equals(modelClass.getResponseANS())){
             ResponseA.setCardBackgroundColor(getResources().getColor(R.color.green));
-            if(index < QuestionPensProcesosLevel1.size() - 1){
+            if(index < listFirebase.size() - 1){
                 correct_Questions(ResponseA);
 
             } else{
@@ -247,7 +213,7 @@ public class QuestionPensProcesosLevel1 extends AppCompatActivity {
         if(modelClass.getResponseB().equals(modelClass.getResponseANS())){
             ResponseB.setCardBackgroundColor(getResources().getColor(R.color.green));
 
-            if(index < QuestionPensProcesosLevel1.size() - 1){
+            if(index < listFirebase.size() - 1){
                 correct_Questions(ResponseB);
 
             } else{
@@ -264,7 +230,7 @@ public class QuestionPensProcesosLevel1 extends AppCompatActivity {
         if(modelClass.getResponseC().equals(modelClass.getResponseANS())){
             ResponseC.setCardBackgroundColor(getResources().getColor(R.color.green));
 
-            if(index < QuestionPensProcesosLevel1.size() - 1){
+            if(index < listFirebase.size() - 1){
                 correct_Questions(ResponseC);
 
             } else{
@@ -281,7 +247,7 @@ public class QuestionPensProcesosLevel1 extends AppCompatActivity {
         if(modelClass.getResponseD().equals(modelClass.getResponseANS())){
             ResponseD.setCardBackgroundColor(getResources().getColor(R.color.green));
 
-            if(index < QuestionPensProcesosLevel1.size() - 1){
+            if(index < listFirebase.size() - 1){
                 correct_Questions(ResponseD);
             } else{
                 GameWon();
@@ -291,8 +257,8 @@ public class QuestionPensProcesosLevel1 extends AppCompatActivity {
         }
     }
 
-    public void irProcesos(View view){
-        Intent i = new Intent(QuestionPensProcesosLevel1.this, SubmenuPensProcesos.class);
+    public void irSubmenu(View view){
+        Intent i = new Intent(QuizTestFirebase.this, MenuActivityOnline.class);
         startActivity(i);
     }
 

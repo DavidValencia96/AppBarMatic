@@ -50,6 +50,11 @@ public class MenuActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void regresar(View view){
+        Intent i = new Intent(MenuActivity.this, OptionOnlineOffline.class);
+        startActivity(i);
+    }
+
     @Override
     public void onBackPressed() {
         return; //inhabilitar el boton de retroceso

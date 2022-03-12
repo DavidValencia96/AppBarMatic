@@ -59,7 +59,7 @@ tools:context=".SubmenuAcercaDe">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="407dp">
+        android:layout_height="500dp">
 
         <GridLayout
             android:layout_width="match_parent"
@@ -129,18 +129,18 @@ tools:context=".SubmenuAcercaDe">
 
     </ScrollView>
 
-    <Button
-        android:onClick="irinicio"
-        android:id="@+id/inicio"
-        android:layout_marginTop="@dimen/_10sdp"
-        android:layout_marginStart="@dimen/_40sdp"
-        android:layout_marginEnd="@dimen/_40sdp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/bordes_redondos_green"
-        android:textColor="@color/white"
-        android:fontFamily="@font/autour_one"
-        android:text="Regresar" />
+<!--    <Button-->
+<!--        android:onClick="irinicio"-->
+<!--        android:id="@+id/inicio"-->
+<!--        android:layout_marginTop="@dimen/_10sdp"-->
+<!--        android:layout_marginStart="@dimen/_40sdp"-->
+<!--        android:layout_marginEnd="@dimen/_40sdp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@drawable/bordes_redondos_green"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:fontFamily="@font/autour_one"-->
+<!--        android:text="Regresar" />-->
 
 </LinearLayout>
 

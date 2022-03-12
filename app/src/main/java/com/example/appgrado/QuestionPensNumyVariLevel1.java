@@ -116,7 +116,7 @@ public class QuestionPensNumyVariLevel1 extends AppCompatActivity {
                 dialog.findViewById(R.id.btn_intentarNew).setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent(QuestionPensNumyVariLevel1.this, SubmenuRazonamiento.class);
+                        Intent intent = new Intent(QuestionPensNumyVariLevel1.this, SubmenuPensNumyVari.class);
                         startActivity(intent);
                     }
                 });

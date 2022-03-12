@@ -115,11 +115,11 @@ public class QuestionPensProcesosLevel2 extends AppCompatActivity {
                 dialog.findViewById(R.id.btn_intentarNew).setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent(QuestionPensProcesosLevel2.this, SubmenuRazonamiento.class);
+                        Intent intent = new Intent(QuestionPensProcesosLevel2.this, SubmenuPensProcesos.class);
                         startActivity(intent);
                     }
                 });
-                dialog.show();
+                dialog.show();  //metodo para mostrar contador
             }
         }.start();
         setAllData();
@@ -161,8 +161,8 @@ public class QuestionPensProcesosLevel2 extends AppCompatActivity {
         nextBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                correctCount++;
-                index++;
+                correctCount++; //sumar en el index las preguntas acertadas
+                index++;  //contador de preguntas
                 modelClass = QuestionPensProcesosLevel2.get(index);
                 resetColor();
                 setAllData();
@@ -177,7 +177,7 @@ public class QuestionPensProcesosLevel2 extends AppCompatActivity {
         nextBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                incorrectCount++;
+                incorrectCount++; // sumar en el index las preguntas incorrectas
                 if(index < allQuestionsList.size() - 1){
                     index++;
                     modelClass = QuestionPensProcesosLevel2.get(index);

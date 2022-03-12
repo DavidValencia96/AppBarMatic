@@ -117,7 +117,7 @@ public class QuestionPensMetricoyGeomeLevel2 extends AppCompatActivity {
                 dialog.findViewById(R.id.btn_intentarNew).setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent(QuestionPensMetricoyGeomeLevel2.this, SubmenuRazonamiento.class);
+                        Intent intent = new Intent(QuestionPensMetricoyGeomeLevel2.this, SubmenuPensMetricoyGeome.class);
                         startActivity(intent);
                     }
                 });

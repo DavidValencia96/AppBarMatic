@@ -12,7 +12,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SubmenuAcercaDe"></activity>
+        <activity android:name=".WonActivityOnline"></activity>
+        <activity android:name=".QuizTestFirebase" />
+        <activity android:name=".MenuActivityOnline" />
+        <activity android:name=".OptionOnlineOffline" />
+        <activity android:name=".SubmenuAcercaDe" />
         <activity android:name=".QuestionPensEducaFinancieraLevel2" />
         <activity android:name=".QuestionPensEducaFinancieraLevel1" />
         <activity android:name=".QuestionPensProcesosLevel2" />
