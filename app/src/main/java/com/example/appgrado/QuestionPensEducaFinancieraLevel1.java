@@ -116,7 +116,7 @@ public class QuestionPensEducaFinancieraLevel1 extends AppCompatActivity {
                 dialog.findViewById(R.id.btn_intentarNew).setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent(QuestionPensEducaFinancieraLevel1.this, SubmenuRazonamiento.class);
+                        Intent intent = new Intent(QuestionPensEducaFinancieraLevel1.this, SubmenuPensEducaFinanciera.class);
                         startActivity(intent);
                     }
                 });

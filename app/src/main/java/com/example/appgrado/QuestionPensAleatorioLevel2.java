@@ -116,7 +116,7 @@ public class QuestionPensAleatorioLevel2 extends AppCompatActivity {
                 dialog.findViewById(R.id.btn_intentarNew).setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent(QuestionPensAleatorioLevel2.this, SubmenuRazonamiento.class);
+                        Intent intent = new Intent(QuestionPensAleatorioLevel2.this, SubmenuPensAleatorio.class);
                         startActivity(intent);
                     }
                 });

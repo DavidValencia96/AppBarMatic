@@ -29,7 +29,7 @@ private FirebaseAnalytics mFirebaseAnalytics;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        analisis con firebase
+//        analitycs con firebase
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
         Bundle bundle = new Bundle();
@@ -75,7 +75,7 @@ private FirebaseAnalytics mFirebaseAnalytics;
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(MainActivity.this, MenuActivity.class);
+                Intent intent = new Intent(MainActivity.this, OptionOnlineOffline.class); //redireccion a vista off- online
                 startActivity(intent);
                 finish();  //evitar que se muestra la vista principal
             }

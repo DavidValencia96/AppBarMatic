@@ -23,7 +23,7 @@ public class QuestionPensAleatorioLevel1 extends AppCompatActivity {
     public static ArrayList<ModelClass> QuestionPensAleatorioLevel1;
 
     CountDownTimer countDownTimer;
-    int timerValue = 600; //contador de tiempo 5 min == 600000 milsg
+    int timerValue = 600; //contador de tiempo 10 min == 600000 milsg
     RoundedHorizontalProgressBar progressBar;
     List<ModelClass> allQuestionsList; //importamos la lista de preguntas en caso de que este en otra vista
     ModelClass modelClass;
@@ -118,7 +118,7 @@ public class QuestionPensAleatorioLevel1 extends AppCompatActivity {
                 dialog.findViewById(R.id.btn_intentarNew).setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent(QuestionPensAleatorioLevel1.this, SubmenuRazonamiento.class);
+                        Intent intent = new Intent(QuestionPensAleatorioLevel1.this, SubmenuPensAleatorio.class);
                         startActivity(intent);
                     }
                 });

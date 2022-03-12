@@ -20,8 +20,8 @@ public class SubmenuAcercaDe extends AppCompatActivity {
         startActivity(i);
     }
 
-    @Override
-    public void onBackPressed() {
-        return; //inhabilitar el boton de retroceso
-    }
+//    @Override
+//    public void onBackPressed() {
+//        return; //inhabilitar el boton de retroceso
+//    }
 }
